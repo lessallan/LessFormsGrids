@@ -1,204 +1,69 @@
-/* incase an inverted custom gradient isn't specified */
-.left { float: left; }
+#container { width: 960px; margin: 0 auto; border: 1px solid #333333; display: inline-block; }
+#container:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
+#container { display: block; }
 
-.right { float: right; }
+.row-2 .field { background: #cccccc; display: inline-block; font-family: arial, helvetica, sans-serif; float: left; padding: 5px 0; border-top: 1px solid #333333; padding-left: 10px; }
+.row-2 .field:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
+.row-2 .field { display: block; }
+.row-2 .field label { display: block; font-weight: bold; font-size: 12px; margin: 0 0 3px 0; }
+.row-2 .field input { width: 100%; font-family: arial, helvetica, sans-serif; font-size: 14px; color: #555555; padding: 2px; }
+.row-2:last-child { border-top: 1px dotted #333333; padding-left: none; }
+.row-2 .field-1 { width: 470px; }
+.row-2 .field-2 { width: 950px; }
+.row-2 .field-3 { width: 1430px; }
+.row-2 .field-4 { width: 1910px; }
 
-.tr { text-align: right; }
+.row-3 .field { background: #cccccc; display: inline-block; font-family: arial, helvetica, sans-serif; float: left; padding: 5px 0; border-top: 1px solid #333333; padding-left: 40px; }
+.row-3 .field:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
+.row-3 .field { display: block; }
+.row-3 .field label { display: block; font-weight: bold; font-size: 12px; margin: 0 0 3px 0; }
+.row-3 .field input { width: 100%; font-family: arial, helvetica, sans-serif; font-size: 14px; color: #555555; padding: 2px; }
+.row-3:last-child { border-top: 1px dotted #333333; padding-left: none; }
+.row-3 .field-1 { width: 280px; }
+.row-3 .field-2 { width: 600px; }
+.row-3 .field-3 { width: 920px; }
+.row-3 .field-4 { width: 1240px; }
 
-strong { font-weight: bold; }
+.row-4 .field { background: #cccccc; display: inline-block; font-family: arial, helvetica, sans-serif; float: left; padding: 5px 0; border-top: 1px solid #333333; padding-left: 10px; }
+.row-4 .field:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
+.row-4 .field { display: block; }
+.row-4 .field label { display: block; font-weight: bold; font-size: 12px; margin: 0 0 3px 0; }
+.row-4 .field input { width: 100%; font-family: arial, helvetica, sans-serif; font-size: 14px; color: #555555; padding: 2px; }
+.row-4:last-child { border-top: 1px dotted #333333; padding-left: none; }
+.row-4 .field-1 { width: 230px; }
+.row-4 .field-2 { width: 470px; }
+.row-4 .field-3 { width: 710px; }
+.row-4 .field-4 { width: 950px; }
 
-div { display: inline-block; }
-div:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
-div { display: block; }
+.row-5 .field { background: #cccccc; display: inline-block; font-family: arial, helvetica, sans-serif; float: left; padding: 5px 0; border-top: 1px solid #333333; padding-left: 10px; }
+.row-5 .field:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
+.row-5 .field { display: block; }
+.row-5 .field label { display: block; font-weight: bold; font-size: 12px; margin: 0 0 3px 0; }
+.row-5 .field input { width: 100%; font-family: arial, helvetica, sans-serif; font-size: 14px; color: #555555; padding: 2px; }
+.row-5:last-child { border-top: 1px dotted #333333; padding-left: none; }
+.row-5 .field-1 { width: 182px; }
+.row-5 .field-2 { width: 374px; }
+.row-5 .field-3 { width: 566px; }
+.row-5 .field-4 { width: 758px; }
 
-.c { clear: both; }
+.row-6 .field { background: #cccccc; display: inline-block; font-family: arial, helvetica, sans-serif; float: left; padding: 5px 0; border-top: 1px solid #333333; padding-left: 10px; }
+.row-6 .field:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
+.row-6 .field { display: block; }
+.row-6 .field label { display: block; font-weight: bold; font-size: 12px; margin: 0 0 3px 0; }
+.row-6 .field input { width: 100%; font-family: arial, helvetica, sans-serif; font-size: 14px; color: #555555; padding: 2px; }
+.row-6:last-child { border-top: 1px dotted #333333; padding-left: none; }
+.row-6 .field-1 { width: 150px; }
+.row-6 .field-2 { width: 310px; }
+.row-6 .field-3 { width: 470px; }
+.row-6 .field-4 { width: 630px; }
 
-small { font-size: 9px; }
-
-.clear { clear: both; }
-
-.tr { text-align: right; }
-
-p { margin: 5px 0 10px 0; }
-
-a { text-decoration: underline; color: #9d1332; }
-
-a:hover { text-decoration: none; }
-
-div { display: inline-block; }
-div:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
-div { display: block; }
-
-.c { display: inline-block; }
-.c:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
-.c { display: block; }
-
-.hidden { display: none; }
-
-li { list-style: none; }
-
-.bullets { margin: 5px 0 15px 20px; }
-.bullets li { list-style: disc; }
-
-.tr, div.tr, span.tc { text-align: right; }
-
-.tc, div.tc, span.tc, td.tc { text-align: center; }
-
-div, img, form, ul, td, th { margin: 0px; padding: 0px; border: 0px; text-align: left; }
-div .clear, img .clear, form .clear, ul .clear, td .clear, th .clear { clear: both; }
-
-ul { margin: 0 0 0 0; padding: 0 0 0 0; }
-
-.bullets { margin: 10px 0 5px 15px; }
-
-.no_bullets { list-style: none; margin: 0 0 0 0; }
-
-.numbers { margin: 5px 0 5px 25px; }
-.numbers li { margin: 3px 0 6px 0; }
-
-.bullets li { margin: 6px 0; }
-
-body { text-align: center; font-family: Verdana; font-size: 16pt; }
-
-button { font-family: "Lucida Grande", Lucida, Arial, sans_serif; background: url('../images/button_bg.png?1278002090') repeat-x bottom left; margin: 0; width: auto; overflow: visible; display: inline-block; cursor: pointer; text-decoration: none; border-style: solid; font-weight: bold; -moz-border-radius: 1em; -webkit-border-radius: 1em; -o-border-radius: 1em; -ms-border-radius: 1em; -khtml-border-radius: 1em; border-radius: 1em; font-size: 25px; line-height: 30px; padding: 7px 25px; border-width: 2px; background-color: #005a91; background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #3ab4ff), color-stop(10%, #0089de), color-stop(50%, #005182), color-stop(50%, #004772), color-stop(100%, #0067a5)); background-image: -moz-linear-gradient(top, #3ab4ff 0%, #0089de 10%, #005182 50%, #004772 50%, #0067a5 100%); border-color: #002b45; text-shadow: #000b11 0px 1px 1px; }
-button::-moz-focus-inner { border: none; padding: 0; }
-button:focus { outline: none; }
-button.disabled, button[disabled] { -moz-opacity: 0.7; -webkit-opacity: 0.7; -o-opacity: 0.7; -khtml-opacity: 0.7; opacity: 0.7; -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); }
-button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus { cursor: default; }
-button:active { padding: 6px 24px; border-width: 3px; }
-button.disabled:active, button[disabled] { padding: 7px 25px; border-width: 2px; }
-button, button:visited { color: white; }
-button.disabled:active, button.disabled:hover, button[disabled]:active, button[disabled]:hover { background-color: #005a91; background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #3ab4ff), color-stop(10%, #0089de), color-stop(50%, #005182), color-stop(50%, #004772), color-stop(100%, #0067a5)); background-image: -moz-linear-gradient(top, #3ab4ff 0%, #0089de 10%, #005182 50%, #004772 50%, #0067a5 100%); border-color: #002b45; text-shadow: #000b11 0px 1px 1px; }
-button.disabled:active, button.disabled:active:visited, button.disabled:hover, button.disabled:hover:visited, button[disabled]:active, button[disabled]:active:visited, button[disabled]:hover, button[disabled]:hover:visited { color: white; }
-button:hover, button:focus { background-color: #005182; background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #2bafff), color-stop(10%, #0080ce), color-stop(50%, #004772), color-stop(50%, #003e63), color-stop(100%, #005d96)); background-image: -moz-linear-gradient(top, #2bafff 0%, #0080ce 10%, #004772 50%, #003e63 50%, #005d96 100%); border-color: #002135; text-shadow: #000102 0px 1px 1px; }
-button:hover, button:hover:visited, button:focus, button:focus:visited { color: white; }
-button:active { background-color: #004772; background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #004772), color-stop(30%, #004d7d), color-stop(50%, #004168), color-stop(50%, #003759), color-stop(100%, #00609b)); background-image: -moz-linear-gradient(top, #004772 0%, #004d7d 30%, #004168 50%, #003759 50%, #00609b 100%); border-color: #001826; text-shadow: black 0px -1px -1px; }
-button:active, button:active:visited { color: white; }
-
-#container { width: 690px; margin: 0 auto; border: 1px solid #333333; }
-
-.row-2 { display: inline-block; }
-.row-2:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
-.row-2 { display: block; }
-.row-2 label { display: block; }
-.row-2 input { display: block; }
-.row-2 .field { margin-left: 10px; background: red; }
-.row-2 .field:first-child { margin-left: 0px; }
-.row-2 .field-1 { width: 340px; float: left; }
-.row-2 .field-2 { width: 680px; float: left; }
-.row-2 .field-3 { width: 1020px; float: left; }
-.row-2 .field-4 { width: 1360px; float: left; }
-.row-2 .field { padding: 5px 0; }
-.row-2 .field:first-child { padding-left: 0px; }
-.row-2 .field label { font-weight: bold; font-family: arial, helvetica, sans-serif; padding: 0 0 3px 0; display: block; font-size: 12px; }
-.row-2 .field fieldset { padding: 0 0 0 0; margin: 0 0 0 0; }
-.row-2 .field legend { font-weight: bold; font-size: 14px; }
-.row-2 .field input.text, .row-2 .field input[type=text], .row-2 .field input[type=password] { font-size: 13px; color: #777777; font-family: "Lucida Grande", arial, helvetica, sans-serif; width: 60px; border-top: 1px solid #727272; border-right: 1px solid #b4b4b4; border-bottom: 1px solid #d9d9d9; border-left: 1px solid #b4b4b4; padding: 5px; background: white url(/images/field2.png) repeat-x -1px -1px; font-family: arial, helvetica, sans-serif; }
-.row-2 .field input[type=checkbox], .row-2 .field input.checkbox, .row-2 .field input[type=radio], .row-2 .field input.radio { width: auto; }
-.row-2 .field textarea { padding: 5px; }
-.row-2 .field select { font-size: 13px; color: #777777; font-family: "Lucida Grande", arial, helvetica, sans-serif; width: 60px; border-top: 1px solid #727272; border-right: 1px solid #b4b4b4; border-bottom: 1px solid #d9d9d9; border-left: 1px solid #b4b4b4; padding: 5px; background: white url(/images/field2.png) repeat-x -1px -1px; font-family: arial, helvetica, sans-serif; padding: 1px; }
-
-.row-3 { display: inline-block; }
-.row-3:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
-.row-3 { display: block; }
-.row-3 label { display: block; }
-.row-3 input { display: block; }
-.row-3 .field { margin-left: 10px; background: red; }
-.row-3 .field:first-child { margin-left: 0px; }
-.row-3 .field-1 { width: 223px; float: left; }
-.row-3 .field-2 { width: 446px; float: left; }
-.row-3 .field-3 { width: 670px; float: left; }
-.row-3 .field-4 { width: 893px; float: left; }
-.row-3 .field { padding: 5px 0; }
-.row-3 .field:first-child { padding-left: 0px; }
-.row-3 .field label { font-weight: bold; font-family: arial, helvetica, sans-serif; padding: 0 0 3px 0; display: block; font-size: 12px; }
-.row-3 .field fieldset { padding: 0 0 0 0; margin: 0 0 0 0; }
-.row-3 .field legend { font-weight: bold; font-size: 14px; }
-.row-3 .field input.text, .row-3 .field input[type=text], .row-3 .field input[type=password] { font-size: 13px; color: #777777; font-family: "Lucida Grande", arial, helvetica, sans-serif; width: 60px; border-top: 1px solid #727272; border-right: 1px solid #b4b4b4; border-bottom: 1px solid #d9d9d9; border-left: 1px solid #b4b4b4; padding: 5px; background: white url(/images/field2.png) repeat-x -1px -1px; font-family: arial, helvetica, sans-serif; }
-.row-3 .field input[type=checkbox], .row-3 .field input.checkbox, .row-3 .field input[type=radio], .row-3 .field input.radio { width: auto; }
-.row-3 .field textarea { padding: 5px; }
-.row-3 .field select { font-size: 13px; color: #777777; font-family: "Lucida Grande", arial, helvetica, sans-serif; width: 60px; border-top: 1px solid #727272; border-right: 1px solid #b4b4b4; border-bottom: 1px solid #d9d9d9; border-left: 1px solid #b4b4b4; padding: 5px; background: white url(/images/field2.png) repeat-x -1px -1px; font-family: arial, helvetica, sans-serif; padding: 1px; }
-
-.row-4 { display: inline-block; }
-.row-4:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
-.row-4 { display: block; }
-.row-4 label { display: block; }
-.row-4 input { display: block; }
-.row-4 .field { margin-left: 10px; background: red; }
-.row-4 .field:first-child { margin-left: 0px; }
-.row-4 .field-1 { width: 165px; float: left; }
-.row-4 .field-2 { width: 330px; float: left; }
-.row-4 .field-3 { width: 495px; float: left; }
-.row-4 .field-4 { width: 660px; float: left; }
-.row-4 .field { padding: 5px 0; }
-.row-4 .field:first-child { padding-left: 0px; }
-.row-4 .field label { font-weight: bold; font-family: arial, helvetica, sans-serif; padding: 0 0 3px 0; display: block; font-size: 12px; }
-.row-4 .field fieldset { padding: 0 0 0 0; margin: 0 0 0 0; }
-.row-4 .field legend { font-weight: bold; font-size: 14px; }
-.row-4 .field input.text, .row-4 .field input[type=text], .row-4 .field input[type=password] { font-size: 13px; color: #777777; font-family: "Lucida Grande", arial, helvetica, sans-serif; width: 60px; border-top: 1px solid #727272; border-right: 1px solid #b4b4b4; border-bottom: 1px solid #d9d9d9; border-left: 1px solid #b4b4b4; padding: 5px; background: white url(/images/field2.png) repeat-x -1px -1px; font-family: arial, helvetica, sans-serif; }
-.row-4 .field input[type=checkbox], .row-4 .field input.checkbox, .row-4 .field input[type=radio], .row-4 .field input.radio { width: auto; }
-.row-4 .field textarea { padding: 5px; }
-.row-4 .field select { font-size: 13px; color: #777777; font-family: "Lucida Grande", arial, helvetica, sans-serif; width: 60px; border-top: 1px solid #727272; border-right: 1px solid #b4b4b4; border-bottom: 1px solid #d9d9d9; border-left: 1px solid #b4b4b4; padding: 5px; background: white url(/images/field2.png) repeat-x -1px -1px; font-family: arial, helvetica, sans-serif; padding: 1px; }
-
-.row-5 { display: inline-block; }
-.row-5:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
-.row-5 { display: block; }
-.row-5 label { display: block; }
-.row-5 input { display: block; }
-.row-5 .field { margin-left: 10px; background: red; }
-.row-5 .field:first-child { margin-left: 0px; }
-.row-5 .field-1 { width: 130px; float: left; }
-.row-5 .field-2 { width: 260px; float: left; }
-.row-5 .field-3 { width: 390px; float: left; }
-.row-5 .field-4 { width: 520px; float: left; }
-.row-5 .field { padding: 5px 0; }
-.row-5 .field:first-child { padding-left: 0px; }
-.row-5 .field label { font-weight: bold; font-family: arial, helvetica, sans-serif; padding: 0 0 3px 0; display: block; font-size: 12px; }
-.row-5 .field fieldset { padding: 0 0 0 0; margin: 0 0 0 0; }
-.row-5 .field legend { font-weight: bold; font-size: 14px; }
-.row-5 .field input.text, .row-5 .field input[type=text], .row-5 .field input[type=password] { font-size: 13px; color: #777777; font-family: "Lucida Grande", arial, helvetica, sans-serif; width: 60px; border-top: 1px solid #727272; border-right: 1px solid #b4b4b4; border-bottom: 1px solid #d9d9d9; border-left: 1px solid #b4b4b4; padding: 5px; background: white url(/images/field2.png) repeat-x -1px -1px; font-family: arial, helvetica, sans-serif; }
-.row-5 .field input[type=checkbox], .row-5 .field input.checkbox, .row-5 .field input[type=radio], .row-5 .field input.radio { width: auto; }
-.row-5 .field textarea { padding: 5px; }
-.row-5 .field select { font-size: 13px; color: #777777; font-family: "Lucida Grande", arial, helvetica, sans-serif; width: 60px; border-top: 1px solid #727272; border-right: 1px solid #b4b4b4; border-bottom: 1px solid #d9d9d9; border-left: 1px solid #b4b4b4; padding: 5px; background: white url(/images/field2.png) repeat-x -1px -1px; font-family: arial, helvetica, sans-serif; padding: 1px; }
-
-.row-6 { display: inline-block; }
-.row-6:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
-.row-6 { display: block; }
-.row-6 label { display: block; }
-.row-6 input { display: block; }
-.row-6 .field { margin-left: 10px; background: red; }
-.row-6 .field:first-child { margin-left: 0px; }
-.row-6 .field-1 { width: 106px; float: left; }
-.row-6 .field-2 { width: 213px; float: left; }
-.row-6 .field-3 { width: 320px; float: left; }
-.row-6 .field-4 { width: 426px; float: left; }
-.row-6 .field { padding: 5px 0; }
-.row-6 .field:first-child { padding-left: 0px; }
-.row-6 .field label { font-weight: bold; font-family: arial, helvetica, sans-serif; padding: 0 0 3px 0; display: block; font-size: 12px; }
-.row-6 .field fieldset { padding: 0 0 0 0; margin: 0 0 0 0; }
-.row-6 .field legend { font-weight: bold; font-size: 14px; }
-.row-6 .field input.text, .row-6 .field input[type=text], .row-6 .field input[type=password] { font-size: 13px; color: #777777; font-family: "Lucida Grande", arial, helvetica, sans-serif; width: 60px; border-top: 1px solid #727272; border-right: 1px solid #b4b4b4; border-bottom: 1px solid #d9d9d9; border-left: 1px solid #b4b4b4; padding: 5px; background: white url(/images/field2.png) repeat-x -1px -1px; font-family: arial, helvetica, sans-serif; }
-.row-6 .field input[type=checkbox], .row-6 .field input.checkbox, .row-6 .field input[type=radio], .row-6 .field input.radio { width: auto; }
-.row-6 .field textarea { padding: 5px; }
-.row-6 .field select { font-size: 13px; color: #777777; font-family: "Lucida Grande", arial, helvetica, sans-serif; width: 60px; border-top: 1px solid #727272; border-right: 1px solid #b4b4b4; border-bottom: 1px solid #d9d9d9; border-left: 1px solid #b4b4b4; padding: 5px; background: white url(/images/field2.png) repeat-x -1px -1px; font-family: arial, helvetica, sans-serif; padding: 1px; }
-
-.row-7 { display: inline-block; }
-.row-7:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
-.row-7 { display: block; }
-.row-7 label { display: block; }
-.row-7 input { display: block; }
-.row-7 .field { margin-left: 10px; background: red; }
-.row-7 .field:first-child { margin-left: 0px; }
-.row-7 .field-1 { width: 90px; float: left; }
-.row-7 .field-2 { width: 180px; float: left; }
-.row-7 .field-3 { width: 270px; float: left; }
-.row-7 .field-4 { width: 360px; float: left; }
-.row-7 .field { padding: 5px 0; }
-.row-7 .field:first-child { padding-left: 0px; }
-.row-7 .field label { font-weight: bold; font-family: arial, helvetica, sans-serif; padding: 0 0 3px 0; display: block; font-size: 12px; }
-.row-7 .field fieldset { padding: 0 0 0 0; margin: 0 0 0 0; }
-.row-7 .field legend { font-weight: bold; font-size: 14px; }
-.row-7 .field input.text, .row-7 .field input[type=text], .row-7 .field input[type=password] { font-size: 13px; color: #777777; font-family: "Lucida Grande", arial, helvetica, sans-serif; width: 60px; border-top: 1px solid #727272; border-right: 1px solid #b4b4b4; border-bottom: 1px solid #d9d9d9; border-left: 1px solid #b4b4b4; padding: 5px; background: white url(/images/field2.png) repeat-x -1px -1px; font-family: arial, helvetica, sans-serif; }
-.row-7 .field input[type=checkbox], .row-7 .field input.checkbox, .row-7 .field input[type=radio], .row-7 .field input.radio { width: auto; }
-.row-7 .field textarea { padding: 5px; }
-.row-7 .field select { font-size: 13px; color: #777777; font-family: "Lucida Grande", arial, helvetica, sans-serif; width: 60px; border-top: 1px solid #727272; border-right: 1px solid #b4b4b4; border-bottom: 1px solid #d9d9d9; border-left: 1px solid #b4b4b4; padding: 5px; background: white url(/images/field2.png) repeat-x -1px -1px; font-family: arial, helvetica, sans-serif; padding: 1px; }
+.row-7 .field { background: #cccccc; display: inline-block; font-family: arial, helvetica, sans-serif; float: left; padding: 5px 0; border-top: 1px solid #333333; padding-left: 10px; }
+.row-7 .field:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
+.row-7 .field { display: block; }
+.row-7 .field label { display: block; font-weight: bold; font-size: 12px; margin: 0 0 3px 0; }
+.row-7 .field input { width: 100%; font-family: arial, helvetica, sans-serif; font-size: 14px; color: #555555; padding: 2px; }
+.row-7:last-child { border-top: 1px dotted #333333; padding-left: none; }
+.row-7 .field-1 { width: 127px; }
+.row-7 .field-2 { width: 264px; }
+.row-7 .field-3 { width: 401px; }
+.row-7 .field-4 { width: 538px; }
