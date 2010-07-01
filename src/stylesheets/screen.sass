@@ -14,7 +14,7 @@ h2
   clear: both
   +pie-clearfix
   
-$big_column_width: 620px
+$big_column_width: 350px
 $fake_pad: 20px
 
 #container
@@ -37,35 +37,38 @@ $fake_pad: 20px
 
 .row
   padding: 5px 0
-  //border-top: 1px solid #333
-  //border-bottom: 1px dotted #333
+  
+.field
+  +pie-clearfix
+  +fl
+
   
 =lessgrid($number_of_columns :4, $gutter :0px)
   $width_of_column:     $big_column_width / $number_of_columns
-  .field
-    +pie-clearfix
-    +fl
-    //border-top: 1px solid #333
 
   .field-1
+    @extend .field 
     width: floor($width_of_column * 1)
     +formstyle
     input 
       width: floor($width_of_column * 1 - $fake_pad)
       
   .field-2
+    @extend .field 
     width: floor($width_of_column * 2)
     +formstyle
     input 
       width: floor($width_of_column * 2 - $fake_pad)
       
   .field-3
+    @extend .field 
     width: floor($width_of_column * 3)
     +formstyle
     input 
       width: floor($width_of_column * 3 - $fake_pad)               
                
   .field-4
+    @extend .field 
     width: floor($width_of_column * 4)
     +formstyle
     input 
@@ -73,6 +76,7 @@ $fake_pad: 20px
           
 .row-2
   +lessgrid(2)
+  
 
 .row-3
   +lessgrid(3)
