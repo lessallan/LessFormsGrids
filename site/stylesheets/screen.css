@@ -1,69 +1,146 @@
-#container { width: 960px; margin: 0 auto; border: 1px solid #333333; display: inline-block; }
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline; }
+
+body { line-height: 1; color: black; background: white; }
+
+ol, ul { list-style: none; }
+
+table { border-collapse: separate; border-spacing: 0; vertical-align: middle; }
+
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+q, blockquote { quotes: "" ""; }
+q:before, q:after, blockquote:before, blockquote:after { content: ""; }
+
+a img { border: none; }
+
+h2 { font-size: 18px; font-weight: bold; font-family: arial, helvetica, sans-serif; margin-top: 20px; }
+
+.row { margin: 10px 0 5px 0; clear: both; display: inline-block; }
+.row:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
+.row { display: block; }
+
+#container { width: 620px; margin: 0 auto; display: inline-block; }
 #container:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
 #container { display: block; }
 
-.row-2 .field { background: #cccccc; display: inline-block; font-family: arial, helvetica, sans-serif; float: left; padding: 5px 0; border-top: 1px solid #333333; padding-left: 10px; }
+.row { padding: 5px 0; }
+
+.row-2 .field { display: inline-block; float: left; }
 .row-2 .field:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
 .row-2 .field { display: block; }
-.row-2 .field label { display: block; font-weight: bold; font-size: 12px; margin: 0 0 3px 0; }
-.row-2 .field input { width: 100%; font-family: arial, helvetica, sans-serif; font-size: 14px; color: #555555; padding: 2px; }
-.row-2:last-child { border-top: 1px dotted #333333; padding-left: none; }
-.row-2 .field-1 { width: 470px; }
-.row-2 .field-2 { width: 950px; }
-.row-2 .field-3 { width: 1430px; }
-.row-2 .field-4 { width: 1910px; }
+.row-2 .field-1 { width: 310px; font-family: arial, helvetica, sans-serif; }
+.row-2 .field-1 label { display: block; font-weight: bold; font-size: 12px; margin: 0 0 3px 0; }
+.row-2 .field-1 input { font-family: arial, helvetica, sans-serif; font-size: 14px; color: #555555; padding: 2px; }
+.row-2 .field-1 input { width: 290px; }
+.row-2 .field-2 { width: 620px; font-family: arial, helvetica, sans-serif; }
+.row-2 .field-2 label { display: block; font-weight: bold; font-size: 12px; margin: 0 0 3px 0; }
+.row-2 .field-2 input { font-family: arial, helvetica, sans-serif; font-size: 14px; color: #555555; padding: 2px; }
+.row-2 .field-2 input { width: 600px; }
+.row-2 .field-3 { width: 930px; font-family: arial, helvetica, sans-serif; }
+.row-2 .field-3 label { display: block; font-weight: bold; font-size: 12px; margin: 0 0 3px 0; }
+.row-2 .field-3 input { font-family: arial, helvetica, sans-serif; font-size: 14px; color: #555555; padding: 2px; }
+.row-2 .field-3 input { width: 910px; }
+.row-2 .field-4 { width: 1240px; font-family: arial, helvetica, sans-serif; }
+.row-2 .field-4 label { display: block; font-weight: bold; font-size: 12px; margin: 0 0 3px 0; }
+.row-2 .field-4 input { font-family: arial, helvetica, sans-serif; font-size: 14px; color: #555555; padding: 2px; }
+.row-2 .field-4 input { width: 1220px; }
 
-.row-3 .field { background: #cccccc; display: inline-block; font-family: arial, helvetica, sans-serif; float: left; padding: 5px 0; border-top: 1px solid #333333; padding-left: 40px; }
+.row-3 .field { display: inline-block; float: left; }
 .row-3 .field:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
 .row-3 .field { display: block; }
-.row-3 .field label { display: block; font-weight: bold; font-size: 12px; margin: 0 0 3px 0; }
-.row-3 .field input { width: 100%; font-family: arial, helvetica, sans-serif; font-size: 14px; color: #555555; padding: 2px; }
-.row-3:last-child { border-top: 1px dotted #333333; padding-left: none; }
-.row-3 .field-1 { width: 280px; }
-.row-3 .field-2 { width: 600px; }
-.row-3 .field-3 { width: 920px; }
-.row-3 .field-4 { width: 1240px; }
+.row-3 .field-1 { width: 206px; font-family: arial, helvetica, sans-serif; }
+.row-3 .field-1 label { display: block; font-weight: bold; font-size: 12px; margin: 0 0 3px 0; }
+.row-3 .field-1 input { font-family: arial, helvetica, sans-serif; font-size: 14px; color: #555555; padding: 2px; }
+.row-3 .field-1 input { width: 186px; }
+.row-3 .field-2 { width: 413px; font-family: arial, helvetica, sans-serif; }
+.row-3 .field-2 label { display: block; font-weight: bold; font-size: 12px; margin: 0 0 3px 0; }
+.row-3 .field-2 input { font-family: arial, helvetica, sans-serif; font-size: 14px; color: #555555; padding: 2px; }
+.row-3 .field-2 input { width: 393px; }
+.row-3 .field-3 { width: 620px; font-family: arial, helvetica, sans-serif; }
+.row-3 .field-3 label { display: block; font-weight: bold; font-size: 12px; margin: 0 0 3px 0; }
+.row-3 .field-3 input { font-family: arial, helvetica, sans-serif; font-size: 14px; color: #555555; padding: 2px; }
+.row-3 .field-3 input { width: 600px; }
+.row-3 .field-4 { width: 826px; font-family: arial, helvetica, sans-serif; }
+.row-3 .field-4 label { display: block; font-weight: bold; font-size: 12px; margin: 0 0 3px 0; }
+.row-3 .field-4 input { font-family: arial, helvetica, sans-serif; font-size: 14px; color: #555555; padding: 2px; }
+.row-3 .field-4 input { width: 806px; }
 
-.row-4 .field { background: #cccccc; display: inline-block; font-family: arial, helvetica, sans-serif; float: left; padding: 5px 0; border-top: 1px solid #333333; padding-left: 10px; }
+.row-4 .field { display: inline-block; float: left; }
 .row-4 .field:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
 .row-4 .field { display: block; }
-.row-4 .field label { display: block; font-weight: bold; font-size: 12px; margin: 0 0 3px 0; }
-.row-4 .field input { width: 100%; font-family: arial, helvetica, sans-serif; font-size: 14px; color: #555555; padding: 2px; }
-.row-4:last-child { border-top: 1px dotted #333333; padding-left: none; }
-.row-4 .field-1 { width: 230px; }
-.row-4 .field-2 { width: 470px; }
-.row-4 .field-3 { width: 710px; }
-.row-4 .field-4 { width: 950px; }
+.row-4 .field-1 { width: 155px; font-family: arial, helvetica, sans-serif; }
+.row-4 .field-1 label { display: block; font-weight: bold; font-size: 12px; margin: 0 0 3px 0; }
+.row-4 .field-1 input { font-family: arial, helvetica, sans-serif; font-size: 14px; color: #555555; padding: 2px; }
+.row-4 .field-1 input { width: 135px; }
+.row-4 .field-2 { width: 310px; font-family: arial, helvetica, sans-serif; }
+.row-4 .field-2 label { display: block; font-weight: bold; font-size: 12px; margin: 0 0 3px 0; }
+.row-4 .field-2 input { font-family: arial, helvetica, sans-serif; font-size: 14px; color: #555555; padding: 2px; }
+.row-4 .field-2 input { width: 290px; }
+.row-4 .field-3 { width: 465px; font-family: arial, helvetica, sans-serif; }
+.row-4 .field-3 label { display: block; font-weight: bold; font-size: 12px; margin: 0 0 3px 0; }
+.row-4 .field-3 input { font-family: arial, helvetica, sans-serif; font-size: 14px; color: #555555; padding: 2px; }
+.row-4 .field-3 input { width: 445px; }
+.row-4 .field-4 { width: 620px; font-family: arial, helvetica, sans-serif; }
+.row-4 .field-4 label { display: block; font-weight: bold; font-size: 12px; margin: 0 0 3px 0; }
+.row-4 .field-4 input { font-family: arial, helvetica, sans-serif; font-size: 14px; color: #555555; padding: 2px; }
+.row-4 .field-4 input { width: 600px; }
 
-.row-5 .field { background: #cccccc; display: inline-block; font-family: arial, helvetica, sans-serif; float: left; padding: 5px 0; border-top: 1px solid #333333; padding-left: 10px; }
+.row-5 .field { display: inline-block; float: left; }
 .row-5 .field:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
 .row-5 .field { display: block; }
-.row-5 .field label { display: block; font-weight: bold; font-size: 12px; margin: 0 0 3px 0; }
-.row-5 .field input { width: 100%; font-family: arial, helvetica, sans-serif; font-size: 14px; color: #555555; padding: 2px; }
-.row-5:last-child { border-top: 1px dotted #333333; padding-left: none; }
-.row-5 .field-1 { width: 182px; }
-.row-5 .field-2 { width: 374px; }
-.row-5 .field-3 { width: 566px; }
-.row-5 .field-4 { width: 758px; }
+.row-5 .field-1 { width: 124px; font-family: arial, helvetica, sans-serif; }
+.row-5 .field-1 label { display: block; font-weight: bold; font-size: 12px; margin: 0 0 3px 0; }
+.row-5 .field-1 input { font-family: arial, helvetica, sans-serif; font-size: 14px; color: #555555; padding: 2px; }
+.row-5 .field-1 input { width: 104px; }
+.row-5 .field-2 { width: 248px; font-family: arial, helvetica, sans-serif; }
+.row-5 .field-2 label { display: block; font-weight: bold; font-size: 12px; margin: 0 0 3px 0; }
+.row-5 .field-2 input { font-family: arial, helvetica, sans-serif; font-size: 14px; color: #555555; padding: 2px; }
+.row-5 .field-2 input { width: 228px; }
+.row-5 .field-3 { width: 372px; font-family: arial, helvetica, sans-serif; }
+.row-5 .field-3 label { display: block; font-weight: bold; font-size: 12px; margin: 0 0 3px 0; }
+.row-5 .field-3 input { font-family: arial, helvetica, sans-serif; font-size: 14px; color: #555555; padding: 2px; }
+.row-5 .field-3 input { width: 352px; }
+.row-5 .field-4 { width: 496px; font-family: arial, helvetica, sans-serif; }
+.row-5 .field-4 label { display: block; font-weight: bold; font-size: 12px; margin: 0 0 3px 0; }
+.row-5 .field-4 input { font-family: arial, helvetica, sans-serif; font-size: 14px; color: #555555; padding: 2px; }
+.row-5 .field-4 input { width: 476px; }
 
-.row-6 .field { background: #cccccc; display: inline-block; font-family: arial, helvetica, sans-serif; float: left; padding: 5px 0; border-top: 1px solid #333333; padding-left: 10px; }
+.row-6 .field { display: inline-block; float: left; }
 .row-6 .field:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
 .row-6 .field { display: block; }
-.row-6 .field label { display: block; font-weight: bold; font-size: 12px; margin: 0 0 3px 0; }
-.row-6 .field input { width: 100%; font-family: arial, helvetica, sans-serif; font-size: 14px; color: #555555; padding: 2px; }
-.row-6:last-child { border-top: 1px dotted #333333; padding-left: none; }
-.row-6 .field-1 { width: 150px; }
-.row-6 .field-2 { width: 310px; }
-.row-6 .field-3 { width: 470px; }
-.row-6 .field-4 { width: 630px; }
+.row-6 .field-1 { width: 103px; font-family: arial, helvetica, sans-serif; }
+.row-6 .field-1 label { display: block; font-weight: bold; font-size: 12px; margin: 0 0 3px 0; }
+.row-6 .field-1 input { font-family: arial, helvetica, sans-serif; font-size: 14px; color: #555555; padding: 2px; }
+.row-6 .field-1 input { width: 83px; }
+.row-6 .field-2 { width: 206px; font-family: arial, helvetica, sans-serif; }
+.row-6 .field-2 label { display: block; font-weight: bold; font-size: 12px; margin: 0 0 3px 0; }
+.row-6 .field-2 input { font-family: arial, helvetica, sans-serif; font-size: 14px; color: #555555; padding: 2px; }
+.row-6 .field-2 input { width: 186px; }
+.row-6 .field-3 { width: 310px; font-family: arial, helvetica, sans-serif; }
+.row-6 .field-3 label { display: block; font-weight: bold; font-size: 12px; margin: 0 0 3px 0; }
+.row-6 .field-3 input { font-family: arial, helvetica, sans-serif; font-size: 14px; color: #555555; padding: 2px; }
+.row-6 .field-3 input { width: 290px; }
+.row-6 .field-4 { width: 413px; font-family: arial, helvetica, sans-serif; }
+.row-6 .field-4 label { display: block; font-weight: bold; font-size: 12px; margin: 0 0 3px 0; }
+.row-6 .field-4 input { font-family: arial, helvetica, sans-serif; font-size: 14px; color: #555555; padding: 2px; }
+.row-6 .field-4 input { width: 393px; }
 
-.row-7 .field { background: #cccccc; display: inline-block; font-family: arial, helvetica, sans-serif; float: left; padding: 5px 0; border-top: 1px solid #333333; padding-left: 10px; }
+.row-7 .field { display: inline-block; float: left; }
 .row-7 .field:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
 .row-7 .field { display: block; }
-.row-7 .field label { display: block; font-weight: bold; font-size: 12px; margin: 0 0 3px 0; }
-.row-7 .field input { width: 100%; font-family: arial, helvetica, sans-serif; font-size: 14px; color: #555555; padding: 2px; }
-.row-7:last-child { border-top: 1px dotted #333333; padding-left: none; }
-.row-7 .field-1 { width: 127px; }
-.row-7 .field-2 { width: 264px; }
-.row-7 .field-3 { width: 401px; }
-.row-7 .field-4 { width: 538px; }
+.row-7 .field-1 { width: 88px; font-family: arial, helvetica, sans-serif; }
+.row-7 .field-1 label { display: block; font-weight: bold; font-size: 12px; margin: 0 0 3px 0; }
+.row-7 .field-1 input { font-family: arial, helvetica, sans-serif; font-size: 14px; color: #555555; padding: 2px; }
+.row-7 .field-1 input { width: 68px; }
+.row-7 .field-2 { width: 177px; font-family: arial, helvetica, sans-serif; }
+.row-7 .field-2 label { display: block; font-weight: bold; font-size: 12px; margin: 0 0 3px 0; }
+.row-7 .field-2 input { font-family: arial, helvetica, sans-serif; font-size: 14px; color: #555555; padding: 2px; }
+.row-7 .field-2 input { width: 157px; }
+.row-7 .field-3 { width: 265px; font-family: arial, helvetica, sans-serif; }
+.row-7 .field-3 label { display: block; font-weight: bold; font-size: 12px; margin: 0 0 3px 0; }
+.row-7 .field-3 input { font-family: arial, helvetica, sans-serif; font-size: 14px; color: #555555; padding: 2px; }
+.row-7 .field-3 input { width: 245px; }
+.row-7 .field-4 { width: 354px; font-family: arial, helvetica, sans-serif; }
+.row-7 .field-4 label { display: block; font-weight: bold; font-size: 12px; margin: 0 0 3px 0; }
+.row-7 .field-4 input { font-family: arial, helvetica, sans-serif; font-size: 14px; color: #555555; padding: 2px; }
+.row-7 .field-4 input { width: 334px; }

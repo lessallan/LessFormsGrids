@@ -1,14 +1,25 @@
 @import compass
++global-reset
 @import utils
 
 
+h2
+  font-size: 18px
+  font-weight: bold
+  +arial
+  margin-top: 20px
+
+.row
+  margin: 10px 0 5px 0
+  clear: both
+  +pie-clearfix
   
-$big_column_width: 960px
+$big_column_width: 620px
+$fake_pad: 20px
 
 #container
   width: $big_column_width
   margin: 0 auto
-  border: 1px solid #333
   +pie-clearfix
     
 =formstyle
@@ -19,43 +30,52 @@ $big_column_width: 960px
     font-size: 12px
     margin: 0 0 3px 0
   input
-    width: 100%
     +arial
     font-size: 14px
     color: #555
     padding: 2px
 
-=lessgrid($number_of_columns :4, $gutter :10px)
+.row
+  padding: 5px 0
+  //border-top: 1px solid #333
+  //border-bottom: 1px dotted #333
+  
+=lessgrid($number_of_columns :4, $gutter :0px)
   $width_of_column:     $big_column_width / $number_of_columns
   .field
-    background: #ccc
     +pie-clearfix
-    +formstyle
     +fl
-    padding: 5px 0
-    border-top: 1px solid #333
-    padding-left: $gutter
-  &:last-child
-    border-top: 1px dotted #333
-    padding-left: none
+    //border-top: 1px solid #333
 
   .field-1
-    width: floor($width_of_column * 1 - $gutter)
-
+    width: floor($width_of_column * 1)
+    +formstyle
+    input 
+      width: floor($width_of_column * 1 - $fake_pad)
+      
   .field-2
-    width: floor($width_of_column * 2 - $gutter)
-
+    width: floor($width_of_column * 2)
+    +formstyle
+    input 
+      width: floor($width_of_column * 2 - $fake_pad)
+      
   .field-3
-    width: floor($width_of_column * 3 - $gutter)
-    
+    width: floor($width_of_column * 3)
+    +formstyle
+    input 
+      width: floor($width_of_column * 3 - $fake_pad)               
+               
   .field-4
-    width: floor($width_of_column * 4 - $gutter)
-
+    width: floor($width_of_column * 4)
+    +formstyle
+    input 
+      width: floor($width_of_column * 4 - $fake_pad)
+          
 .row-2
   +lessgrid(2)
 
 .row-3
-  +lessgrid(3, 40px)
+  +lessgrid(3)
 
 .row-4
   +lessgrid(4)
