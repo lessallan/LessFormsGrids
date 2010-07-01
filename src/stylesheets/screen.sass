@@ -9,12 +9,11 @@ h2
   +arial
   margin-top: 20px
 
-.row
-  margin: 10px 0 5px 0
-  clear: both
-  +pie-clearfix
+
   
-$big_column_width: 350px
+  
+$big_column_width: 300px
+$gutter_width: 20px
 
 #container
   width: $big_column_width
@@ -36,13 +35,16 @@ $big_column_width: 350px
 
 .row
   padding: 5px 0
+  margin: 10px 0 5px 0
+  clear: both
+  +pie-clearfix
   
 .field
   +pie-clearfix
   +fl
 
   
-=lessgrid($number_of_columns :4, $gutter :20px)
+=lessgrid($number_of_columns :4, $gutter :$gutter_width)
   $width_of_column:     $big_column_width / $number_of_columns
 
   @for $i from 1 through 6 
