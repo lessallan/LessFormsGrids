@@ -1,4 +1,7 @@
+@import compass
 @import fancy-buttons
+@import utils
+
 body
   text-align: center
   font:
@@ -6,3 +9,123 @@ body
     size: 16pt
 button
   +fancy-button(#005a91, 25px, 1em, 2px)
+
+  
+$big_column_width: 690px
+
+#container
+  width: $big_column_width
+  margin: 0 auto
+  border: 1px solid #333
+
+=less_form_style
+  font-size: 13px
+  color: #777
+  +font_sans
+  width: 60px
+  border-top: 1px solid #727272
+  border-right: 1px solid #b4b4b4
+  border-bottom: 1px solid #d9d9d9
+  border-left: 1px solid #b4b4b4
+  padding: 5px
+  background: white url(/images/field2.png) repeat-x -1px -1px
+  +arial
+
+
+=form_style
+  .field
+    padding: 5px 0
+    //clear: both
+    &:first-child
+      padding-left: 0px
+    label
+      font-weight: bold
+      +arial
+      padding: 0 0 3px 0
+      +block
+      font-size: 12px
+
+    fieldset
+      padding: 0 0 0 0
+      margin: 0 0 0 0
+    legend
+      font-weight: bold
+      font-size: 14px
+    input
+      &.text,
+      &[type=text],
+      &[type=password]
+        +less_form_style
+      &[type=checkbox],
+      &.checkbox,
+      &[type=radio],
+      &.radio
+        width: auto
+    textarea
+      padding: 5px
+    select
+      +less_form_style
+      padding: 1px  
+
+=lessgrid($number_of_columns :4, $width_of_gutter :10px)
+  $number_of_gutters:   $number_of_columns - 1
+  $width_of_column:     ($big_column_width - ($width_of_gutter * $number_of_gutters)) / $number_of_columns
+  +pie-clearfix
+  label
+    +block
+  input
+    +block
+  .field
+    margin-left: $width_of_gutter
+    background: red
+    &:first-child
+      margin-left: 0px
+
+  .field-1
+    width: floor($width_of_column * 1)
+    +fl
+
+  .field-2
+    width: floor($width_of_column * 2)
+    +fl
+
+  .field-3
+    width: floor($width_of_column * 3) 
+    +fl
+
+  .field-4
+    width: floor($width_of_column * 4)
+    +fl
+
+.row-2
+  +lessgrid(2, 10px)
+  +form_style
+
+.row-3
+  +lessgrid(3, 10px)
+  +form_style
+
+.row-4
+  +lessgrid(4, 10px)
+  +form_style
+
+.row-5
+  +lessgrid(5, 10px)
+  +form_style
+
+.row-6
+  +lessgrid(6, 10px)
+  +form_style
+
+.row-7
+  +lessgrid(7, 10px)
+  +form_style
+
+
+
+
+  
+  
+  
+  
+  
