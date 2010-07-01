@@ -45,33 +45,14 @@ $big_column_width: 350px
 =lessgrid($number_of_columns :4, $gutter :0px)
   $width_of_column:     $big_column_width / $number_of_columns
 
-  .field-1
-    @extend .field 
-    width: floor($width_of_column * 1)
-    +formstyle
-    input 
-      width: floor($width_of_column * 1 - $gutter)
+  @for $i from 1 through 6 
+    .field-#{$i}
+      @extend .field 
+      width: floor($width_of_column * $i)
+      +formstyle
+      input 
+        width: floor($width_of_column * $i - $gutter)
       
-  .field-2
-    @extend .field 
-    width: floor($width_of_column * 2)
-    +formstyle
-    input 
-      width: floor($width_of_column * 2 - $gutter)
-      
-  .field-3
-    @extend .field 
-    width: floor($width_of_column * 3)
-    +formstyle
-    input 
-      width: floor($width_of_column * 3 - $gutter)               
-               
-  .field-4
-    @extend .field 
-    width: floor($width_of_column * 4)
-    +formstyle
-    input 
-      width: floor($width_of_column * 4 - $gutter)
           
 .row-2
   @extend .row
