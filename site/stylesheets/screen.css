@@ -15,15 +15,15 @@ a img { border: none; }
 
 h2 { font-size: 18px; font-weight: bold; font-family: arial, helvetica, sans-serif; margin-top: 20px; }
 
-.row { margin: 10px 0 5px 0; clear: both; display: inline-block; }
-.row:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
-.row { display: block; }
+.row, .row-2, .row-3, .row-4, .row-5, .row-6, .row-7 { margin: 10px 0 5px 0; clear: both; display: inline-block; }
+.row:after, .row-2:after, .row-3:after, .row-4:after, .row-5:after, .row-6:after, .row-7:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
+.row, .row-2, .row-3, .row-4, .row-5, .row-6, .row-7 { display: block; }
 
 #container { width: 350px; margin: 0 auto; display: inline-block; }
 #container:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
 #container { display: block; }
 
-.row { padding: 5px 0; }
+.row, .row-2, .row-3, .row-4, .row-5, .row-6, .row-7 { padding: 5px 0; }
 
 .field, .row-2 .field-1, .row-2 .field-2, .row-2 .field-3, .row-2 .field-4, .row-3 .field-1, .row-3 .field-2, .row-3 .field-3, .row-3 .field-4, .row-4 .field-1, .row-4 .field-2, .row-4 .field-3, .row-4 .field-4, .row-5 .field-1, .row-5 .field-2, .row-5 .field-3, .row-5 .field-4, .row-6 .field-1, .row-6 .field-2, .row-6 .field-3, .row-6 .field-4, .row-7 .field-1, .row-7 .field-2, .row-7 .field-3, .row-7 .field-4 { display: inline-block; float: left; }
 .field:after, .row-2 .field-1:after, .row-2 .field-2:after, .row-2 .field-3:after, .row-2 .field-4:after, .row-3 .field-1:after, .row-3 .field-2:after, .row-3 .field-3:after, .row-3 .field-4:after, .row-4 .field-1:after, .row-4 .field-2:after, .row-4 .field-3:after, .row-4 .field-4:after, .row-5 .field-1:after, .row-5 .field-2:after, .row-5 .field-3:after, .row-5 .field-4:after, .row-6 .field-1:after, .row-6 .field-2:after, .row-6 .field-3:after, .row-6 .field-4:after, .row-7 .field-1:after, .row-7 .field-2:after, .row-7 .field-3:after, .row-7 .field-4:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
