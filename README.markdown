@@ -1,6 +1,5 @@
-#LessForms, screw gridb frameworks
-I'm experimenting with a simple grid framework for forms.
-
+#LessForms, screw grid frameworks
+*I'm experimenting with a simple grid framework for forms.
 This project uses iMathis' StaticMatic Starter, read below.
 -----------------------
 # StaticMatic Starter!
