@@ -42,7 +42,7 @@ $big_column_width: 350px
   +fl
 
   
-=lessgrid($number_of_columns :4, $gutter :0px)
+=lessgrid($number_of_columns :4, $gutter :20px)
   $width_of_column:     $big_column_width / $number_of_columns
 
   @for $i from 1 through 6 
@@ -53,36 +53,9 @@ $big_column_width: 350px
       input 
         width: floor($width_of_column * $i - $gutter)
       
-          
-.row-2
-  @extend .row
-  +lessgrid(2, 20px)
-  
-.row-3
-  @extend .row
-  +lessgrid(3, 20px)
 
-.row-4
-  @extend .row
-  +lessgrid(4, 20px)
-
-.row-5
-  @extend .row
-  +lessgrid(5, 20px)
-
-.row-6
-  @extend .row
-  +lessgrid(6, 20px)
-
-.row-7
-  @extend .row
-  +lessgrid(7, 20px)
-
-
-
-
-  
-  
-  
-  
+@for $i from 1 through 11 
+  .row-#{$i}          
+    @extend .row
+    +lessgrid($i)
   
