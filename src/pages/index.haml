@@ -11,12 +11,12 @@
     .field-1
       %label.req
         First Name
-      = text_field('first_name', 'bob')  
+      = text_field('', '')  
 
     .field-1
       %label.req  
         Last Name
-      = text_field('first_name', 'bob')
+      = text_field('', '')
 
 
 
@@ -25,12 +25,12 @@
     .field-1
       %label.req  
         Address
-      = text_field('first_name', 'bob')    
+      = text_field('', '')    
       
     .field-1
       %label.req  
         Address 2
-      = text_field('first_name', 'bob')
+      = text_field('', '')
       
       
   .row-5   
@@ -38,17 +38,17 @@
     .field-2
       %label.req  
         City
-      = text_field('first_name', 'bob')
+      = text_field('', '')
       
     .field-2
       %label.req  
         State
-      = text_field('first_name', 'bob')
+      = text_field('', '')
 
     .field-1
       %label.req  
         Zip Code
-      = text_field('first_name', 'bob')
+      = text_field('', '')
 
   %h2
     Optional Fields
@@ -59,33 +59,49 @@
     .field-2
       %label  
         Referrer
-      
+      %select
+        %option 
+          Google
+        %option 
+          Yo Momma
       
     .field-1
       %label  
-        Address 1
-      = text_field('first_name', 'bob')
+        Gender
+      .radio
+        %input{:type => "radio"} 
+        Male
+      .radio
+        %input{:type => "radio"} 
+        Female
       
     .field-1
       %label  
-        Address 1
-      = text_field('first_name', 'bob')
+        Are you alive?
+      .checkbox
+        %input{:type => "checkbox"} 
+        Yes
 
 
 
 
   .row-4
       
+    .field-2
+      %label  
+        Favorite Person 1
+      = text_field('', 'Allan Branch @LessAllan')
+      
     .field-1
       %label  
-        Address 1
-      = text_field('first_name', 'bob')
-      
-    .field-3
+        Favorite Person 2
+      = text_field('', '')
+
+    .field-1
       %label  
-        Address 1
-      = text_field('first_name', 'bob')
-    
+        Favorite Person 3
+      = text_field('', '')
+
     
     
     

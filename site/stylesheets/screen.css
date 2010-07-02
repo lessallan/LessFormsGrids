@@ -23,6 +23,8 @@ h2 { font-size: 15px; font-weight: normal; font-family: arial, helvetica, sans-s
 #container:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
 #container { display: block; }
 
+.radio, .checkbox { font-size: 12px; }
+
 .row, .row-1, .row-2, .row-3, .row-4, .row-5, .row-6, .row-7, .row-8, .row-9, .row-10, .row-11 { padding: 5px 0; margin: 10px 0 5px 0; clear: both; display: inline-block; }
 .row:after, .row-1:after, .row-2:after, .row-3:after, .row-4:after, .row-5:after, .row-6:after, .row-7:after, .row-8:after, .row-9:after, .row-10:after, .row-11:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
 .row, .row-1, .row-2, .row-3, .row-4, .row-5, .row-6, .row-7, .row-8, .row-9, .row-10, .row-11 { display: block; }
