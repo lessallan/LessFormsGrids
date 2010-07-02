@@ -12,7 +12,7 @@ h2
 
   
   
-$big_column_width: 300px
+$big_column_width: 550px
 $gutter_width: 20px
 
 #container
@@ -45,7 +45,7 @@ $gutter_width: 20px
 
   
 =lessgrid($number_of_columns :4, $gutter :$gutter_width)
-  $width_of_column:     $big_column_width / $number_of_columns
+  $width_of_column: $big_column_width / $number_of_columns
 
   @for $i from 1 through 6 
     .field-#{$i}
