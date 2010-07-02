@@ -2,15 +2,27 @@
 +global-reset
 @import utils
 
+////////////////////////////
+//// Optional Styles ////////
 
-h2
-  font-size: 18px
+h1
+  font-size: 25px
   font-weight: bold
   +arial
-  margin-top: 20px
+  margin: 20px 0 0 0
 
 
+h2
+  font-size: 15px
+  font-weight: normal
+  +arial
+  padding: 30px 0 10px 0
+  border-bottom: 1px solid #ccc
+
+.req
+  +bold
   
+////////////////  
   
 $big_column_width: 550px
 $gutter_width: 20px
@@ -24,15 +36,17 @@ $gutter_width: 20px
   +arial
   label
     +block
-    +bold
     font-size: 12px
     margin: 0 0 3px 0
-  input
+  input[type='text'], textarea, select 
     +arial
     font-size: 14px
     color: #555
-    padding: 2px
-
+    padding: 3px
+    border: 1px solid #ccc
+    border-top: 1px solid #888
+    border-right: 1px solid #bbb
+    
 .row
   padding: 5px 0
   margin: 10px 0 5px 0
@@ -52,7 +66,7 @@ $gutter_width: 20px
       @extend .field 
       width: floor($width_of_column * $i)
       +formstyle
-      input 
+      input[type='text'], textarea, select 
         width: floor($width_of_column * $i - $gutter)
       
 

@@ -1,54 +1,65 @@
 
 #container
+  %h1
+    Example Registration Form
   
-  %h2 
-    Less Form Grids
-  
-  
+  %h2
+    Personal Information
   
   .row-3
       
-    .field-2
-      %label  
-        Full Name
+    .field-1
+      %label.req
+        First Name
       = text_field('first_name', 'bob')  
 
     .field-1
-      %label  
-        Address 1
+      %label.req  
+        Last Name
       = text_field('first_name', 'bob')
 
 
 
-  .row-4
+  .row-2
       
     .field-1
-      %label  
-        Address 1
+      %label.req  
+        Address
       = text_field('first_name', 'bob')    
       
-    .field-2
-      %label  
-        Address 1
-      = text_field('first_name', 'bob')
-      
-      
     .field-1
-      %label  
-        Address 1
+      %label.req  
+        Address 2
       = text_field('first_name', 'bob')
       
+      
+  .row-5   
+      
+    .field-2
+      %label.req  
+        City
+      = text_field('first_name', 'bob')
+      
+    .field-2
+      %label.req  
+        State
+      = text_field('first_name', 'bob')
 
+    .field-1
+      %label.req  
+        Zip Code
+      = text_field('first_name', 'bob')
 
-
+  %h2
+    Optional Fields
 
   .row-4
 
 
     .field-2
       %label  
-        Address 1
-      = text_field('first_name', 'bob')
+        Referrer
+      
       
     .field-1
       %label  
@@ -78,21 +89,12 @@
     
     
     
-  .row-5  
-      
-    .field-2
-      %label  
-        Address 1
-      = text_field('first_name', 'bob')
-      
-    .field-2
-      %label  
-        Address 1
-      = text_field('first_name', 'bob')
+  .row-1
       
     .field-1
       %label  
-        Address 1
-      = text_field('first_name', 'bob')
+        Other Comments
+      = text_area 'myname', 'myvalue'
+      
 
 
