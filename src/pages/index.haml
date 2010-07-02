@@ -30,7 +30,11 @@
     .field-1
       %label.req  
         Address 2
+        %span
+          hints can go here too!
       = text_field('', '')
+      .hint
+        Suite number and other shit
       
       
   .row-4   
@@ -39,6 +43,8 @@
       %label.req  
         City
       = text_field('', '')
+      .hint
+        this is the city you live in
       
     .field-1
       %label.req  

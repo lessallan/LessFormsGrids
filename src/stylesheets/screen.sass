@@ -22,6 +22,11 @@ h2
 .req
   +bold
   
+.hint
+  font-size: 11px
+  color: #999
+  margin: 4px 0 0 0
+  
 ////////////////  
   
 $big_column_width: 550px
@@ -41,6 +46,10 @@ $gutter_width: 20px
     +block
     font-size: 12px
     margin: 0 0 3px 0
+    span
+      @extend .hint
+      font-weight: normal
+      margin-left: 5px
   input[type='text'], textarea, select 
     +arial
     font-size: 12px
