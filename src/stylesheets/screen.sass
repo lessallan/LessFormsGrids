@@ -29,13 +29,26 @@ h2
   
 ////////////////  
   
-$big_column_width: 550px
+$site_width: 960px  
+$contact_width: 550px
+$expenses_width: 450px
+
 $gutter_width: 20px
 
 #container
-  width: $big_column_width
+  width: $site_width
   margin: 0 auto
+  border: 1px solid #333
   +pie-clearfix
+  
+  #contact
+    width: $contact_width
+    +pie-clearfix
+
+  #expenses
+    width: $expenses_width
+    +pie-clearfix
+
 
 /////////////////////////////////////////////////////
 //// This sets the style of the fields and rows ////
@@ -91,7 +104,7 @@ input[type='checkbox'], input[type='radio']
 
   
 =lessgrid($number_of_columns :4, $gutter :$gutter_width)
-  $width_of_column: $big_column_width / $number_of_columns
+  $width_of_column: $contact_width / $number_of_columns
 
   @for $i from 1 through 6 
     .field-#{$i}

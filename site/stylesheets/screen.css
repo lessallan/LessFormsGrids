@@ -21,9 +21,15 @@ h2 { font-size: 15px; font-weight: normal; font-family: arial, helvetica, sans-s
 
 .hint, .row-1 .field-1 label span, .row-1 .field-2 label span, .row-1 .field-3 label span, .row-1 .field-4 label span, .row-1 .field-5 label span, .row-1 .field-6 label span, .row-2 .field-1 label span, .row-2 .field-2 label span, .row-2 .field-3 label span, .row-2 .field-4 label span, .row-2 .field-5 label span, .row-2 .field-6 label span, .row-3 .field-1 label span, .row-3 .field-2 label span, .row-3 .field-3 label span, .row-3 .field-4 label span, .row-3 .field-5 label span, .row-3 .field-6 label span, .row-4 .field-1 label span, .row-4 .field-2 label span, .row-4 .field-3 label span, .row-4 .field-4 label span, .row-4 .field-5 label span, .row-4 .field-6 label span, .row-5 .field-1 label span, .row-5 .field-2 label span, .row-5 .field-3 label span, .row-5 .field-4 label span, .row-5 .field-5 label span, .row-5 .field-6 label span, .row-6 .field-1 label span, .row-6 .field-2 label span, .row-6 .field-3 label span, .row-6 .field-4 label span, .row-6 .field-5 label span, .row-6 .field-6 label span, .row-7 .field-1 label span, .row-7 .field-2 label span, .row-7 .field-3 label span, .row-7 .field-4 label span, .row-7 .field-5 label span, .row-7 .field-6 label span, .row-8 .field-1 label span, .row-8 .field-2 label span, .row-8 .field-3 label span, .row-8 .field-4 label span, .row-8 .field-5 label span, .row-8 .field-6 label span, .row-9 .field-1 label span, .row-9 .field-2 label span, .row-9 .field-3 label span, .row-9 .field-4 label span, .row-9 .field-5 label span, .row-9 .field-6 label span, .row-10 .field-1 label span, .row-10 .field-2 label span, .row-10 .field-3 label span, .row-10 .field-4 label span, .row-10 .field-5 label span, .row-10 .field-6 label span, .row-11 .field-1 label span, .row-11 .field-2 label span, .row-11 .field-3 label span, .row-11 .field-4 label span, .row-11 .field-5 label span, .row-11 .field-6 label span { font-size: 11px; color: #999999; margin: 4px 0 0 0; }
 
-#container { width: 550px; margin: 0 auto; display: inline-block; }
+#container { width: 960px; margin: 0 auto; border: 1px solid #333333; display: inline-block; }
 #container:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
 #container { display: block; }
+#container #contact { width: 550px; display: inline-block; }
+#container #contact:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
+#container #contact { display: block; }
+#container #expenses { width: 450px; display: inline-block; }
+#container #expenses:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
+#container #expenses { display: block; }
 
 .radio, .checkbox { font-size: 12px; padding: 3px 0; color: #555555; }
 
