@@ -30,8 +30,9 @@ h2
 ////////////////  
   
 $site_width: 960px  
-$contact_width: 550px
-$expenses_width: 450px
+$contact_width: 750px
+$signup_width: 350px
+$expenses_width: 550px
 
 $gutter_width: 20px
 
@@ -47,6 +48,10 @@ $gutter_width: 20px
 
   #expenses
     width: $expenses_width
+    +pie-clearfix
+
+  #signup
+    width: $signup_width
     +pie-clearfix
 
 
@@ -102,21 +107,61 @@ input[type='checkbox'], input[type='radio']
   +pie-clearfix
   +fl
 
-  
+////// I want the grid to adjust accounting to the parent id set on the parent div
+/////// Example: #expenses, #contact, #signup 
+/////// these div widths are set as a variable above
+
 =lessgrid($number_of_columns :4, $gutter :$gutter_width)
-  $width_of_column: $contact_width / $number_of_columns
+  $contact_width_of_column: $contact_width / $number_of_columns
+  $expense_width_of_column: $expenses_width / $number_of_columns
+  $signup_width_of_column: $signup_width / $number_of_columns
+  
+  @for $i from 1 through 6 
+    .field-#{$i}
+      @extend .field 
+      width: floor($contact_width_of_column * $i)
+      +formstyle
+      input[type='text'], textarea, select 
+        width: floor($contact_width_of_column * $i - $gutter)
 
   @for $i from 1 through 6 
     .field-#{$i}
       @extend .field 
-      width: floor($width_of_column * $i)
+      width: floor($expense_width_of_column * $i)
       +formstyle
       input[type='text'], textarea, select 
-        width: floor($width_of_column * $i - $gutter)
+        width: floor($expense_width_of_column * $i - $gutter)
+
+  @for $i from 1 through 6 
+    .field-#{$i}
+      @extend .field 
+      width: floor($signup_width_of_column * $i)
+      +formstyle
+      input[type='text'], textarea, select 
+        width: floor($signup_width_of_column * $i - $gutter)
       
 
-@for $i from 1 through 11 
-  .row-#{$i}          
-    @extend .row
-    +lessgrid($i)
+@for $i from 1 through 8
+  #contact
+    .row-#{$i}          
+      @extend .row
+      +lessgrid($i)
+    
+
+@for $i from 1 through 8
+  #expenses
+    .row-#{$i}          
+      @extend .row
+      +lessgrid($i)
+    
+@for $i from 1 through 8 
+  #signup
+    .row-#{$i}          
+      @extend .row
+      +lessgrid($i)        
+        
+        
+        
+        
+            
   
