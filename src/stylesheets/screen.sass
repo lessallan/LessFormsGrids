@@ -55,11 +55,11 @@ $gutter_width: 20px
     width: $signup_width
     +pie-clearfix
 
-
+      
 /////////////////////////////////////////////////////
 //// This sets the style of the fields and rows ////
     
-=formstyle
+.formstyle
   +arial
   label
     +block
@@ -114,25 +114,34 @@ input[type='checkbox'], input[type='radio']
 
 =lessgrid($container_width :700px, $number_of_columns :4, $gutter :$gutter_width)
   $width_of_column: $container_width / $number_of_columns
-
-  @for $i from 1 through 4
-    .field-#{$i}
-      @extend .field 
-      +formstyle
-
   
   @for $i from 1 through 4
     .field-#{$i}
+      @extend .field 
+      @extend .formstyle 
       width: floor($width_of_column * $i)
       input[type='text'], textarea, select 
         width: floor($width_of_column * $i - $gutter)
 
 
 @for $i from 1 through 7
-  .row-#{$i}          
-    @extend .row    
-    +lessgrid($i)
-    
+  #expenses
+    .row-#{$i}          
+      @extend .row    
+      +lessgrid($expenses_width, $i)
+
+@for $i from 1 through 7
+  #contact
+    .row-#{$i}          
+      @extend .row    
+      +lessgrid($contact_width, $i)   
+
+@for $i from 1 through 7
+  #signup
+    .row-#{$i}          
+      @extend .row    
+      +lessgrid($signup_width, $i)      
+
 
         
         
