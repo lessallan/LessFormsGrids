@@ -30,6 +30,7 @@ h2
 ////////////////  
   
 $site_width: 960px  
+
 $contact_width: 750px
 $signup_width: 350px
 $expenses_width: 550px
@@ -111,10 +112,8 @@ input[type='checkbox'], input[type='radio']
 /////// Example: #expenses, #contact, #signup 
 /////// these div widths are set as a variable above
 
-=lessgrid($number_of_columns :4, $gutter :$gutter_width)
-  $contact_width_of_column: $contact_width / $number_of_columns
-  $expense_width_of_column: $expenses_width / $number_of_columns
-  $signup_width_of_column: $signup_width / $number_of_columns
+=lessgrid($container_width :700px, $number_of_columns :4, $gutter :$gutter_width)
+  $width_of_column: $container_width / $number_of_columns
 
   @for $i from 1 through 4
     .field-#{$i}
@@ -124,45 +123,17 @@ input[type='checkbox'], input[type='radio']
   
   @for $i from 1 through 4
     .field-#{$i}
-      width: floor($contact_width_of_column * $i)
+      width: floor($width_of_column * $i)
       input[type='text'], textarea, select 
-        width: floor($contact_width_of_column * $i - $gutter)
-
-  @for $i from 1 through 4 
-    .field-#{$i}
-      width: floor($expense_width_of_column * $i)
-      input[type='text'], textarea, select 
-        width: floor($expense_width_of_column * $i - $gutter)
-
-  @for $i from 1 through 4 
-    .field-#{$i}
-      width: floor($signup_width_of_column * $i)
-      input[type='text'], textarea, select 
-        width: floor($signup_width_of_column * $i - $gutter)
-      
+        width: floor($width_of_column * $i - $gutter)
 
 
 @for $i from 1 through 7
   .row-#{$i}          
-    @extend .row
-
-
-@for $i from 1 through 7
-  #contact
-    .row-#{$i}          
-      +lessgrid($i)
+    @extend .row    
+    +lessgrid($i)
     
 
-@for $i from 1 through 7
-  #expenses
-    .row-#{$i}          
-      +lessgrid($i)
-    
-@for $i from 1 through 7 
-  #signup
-    .row-#{$i}          
-      +lessgrid($i)        
-        
         
         
         
