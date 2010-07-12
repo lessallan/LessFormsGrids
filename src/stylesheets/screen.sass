@@ -115,49 +115,52 @@ input[type='checkbox'], input[type='radio']
   $contact_width_of_column: $contact_width / $number_of_columns
   $expense_width_of_column: $expenses_width / $number_of_columns
   $signup_width_of_column: $signup_width / $number_of_columns
-  
+
   @for $i from 1 through 4
     .field-#{$i}
       @extend .field 
-      width: floor($contact_width_of_column * $i)
       +formstyle
+
+  
+  @for $i from 1 through 4
+    .field-#{$i}
+      width: floor($contact_width_of_column * $i)
       input[type='text'], textarea, select 
         width: floor($contact_width_of_column * $i - $gutter)
 
   @for $i from 1 through 4 
     .field-#{$i}
-      @extend .field 
       width: floor($expense_width_of_column * $i)
-      +formstyle
       input[type='text'], textarea, select 
         width: floor($expense_width_of_column * $i - $gutter)
 
   @for $i from 1 through 4 
     .field-#{$i}
-      @extend .field 
       width: floor($signup_width_of_column * $i)
-      +formstyle
       input[type='text'], textarea, select 
         width: floor($signup_width_of_column * $i - $gutter)
       
 
+
+@for $i from 1 through 7
+  .row-#{$i}          
+    @extend .row
+
+
 @for $i from 1 through 7
   #contact
     .row-#{$i}          
-      @extend .row
       +lessgrid($i)
     
 
 @for $i from 1 through 7
   #expenses
     .row-#{$i}          
-      @extend .row
       +lessgrid($i)
     
 @for $i from 1 through 7 
   #signup
     .row-#{$i}          
-      @extend .row
       +lessgrid($i)        
         
         
