@@ -55,190 +55,274 @@ input[type='checkbox'], input[type='radio'] { padding: 0 0 0 0; margin: 0 0 0 0;
 .field, #expenses .row-1 .field-1, #expenses .row-1 .field-2, #expenses .row-1 .field-3, #expenses .row-1 .field-4, #expenses .row-2 .field-1, #expenses .row-2 .field-2, #expenses .row-2 .field-3, #expenses .row-2 .field-4, #expenses .row-3 .field-1, #expenses .row-3 .field-2, #expenses .row-3 .field-3, #expenses .row-3 .field-4, #expenses .row-4 .field-1, #expenses .row-4 .field-2, #expenses .row-4 .field-3, #expenses .row-4 .field-4, #expenses .row-5 .field-1, #expenses .row-5 .field-2, #expenses .row-5 .field-3, #expenses .row-5 .field-4, #expenses .row-6 .field-1, #expenses .row-6 .field-2, #expenses .row-6 .field-3, #expenses .row-6 .field-4, #expenses .row-7 .field-1, #expenses .row-7 .field-2, #expenses .row-7 .field-3, #expenses .row-7 .field-4, #contact .row-1 .field-1, #contact .row-1 .field-2, #contact .row-1 .field-3, #contact .row-1 .field-4, #contact .row-2 .field-1, #contact .row-2 .field-2, #contact .row-2 .field-3, #contact .row-2 .field-4, #contact .row-3 .field-1, #contact .row-3 .field-2, #contact .row-3 .field-3, #contact .row-3 .field-4, #contact .row-4 .field-1, #contact .row-4 .field-2, #contact .row-4 .field-3, #contact .row-4 .field-4, #contact .row-5 .field-1, #contact .row-5 .field-2, #contact .row-5 .field-3, #contact .row-5 .field-4, #contact .row-6 .field-1, #contact .row-6 .field-2, #contact .row-6 .field-3, #contact .row-6 .field-4, #contact .row-7 .field-1, #contact .row-7 .field-2, #contact .row-7 .field-3, #contact .row-7 .field-4, #signup .row-1 .field-1, #signup .row-1 .field-2, #signup .row-1 .field-3, #signup .row-1 .field-4, #signup .row-2 .field-1, #signup .row-2 .field-2, #signup .row-2 .field-3, #signup .row-2 .field-4, #signup .row-3 .field-1, #signup .row-3 .field-2, #signup .row-3 .field-3, #signup .row-3 .field-4, #signup .row-4 .field-1, #signup .row-4 .field-2, #signup .row-4 .field-3, #signup .row-4 .field-4, #signup .row-5 .field-1, #signup .row-5 .field-2, #signup .row-5 .field-3, #signup .row-5 .field-4, #signup .row-6 .field-1, #signup .row-6 .field-2, #signup .row-6 .field-3, #signup .row-6 .field-4, #signup .row-7 .field-1, #signup .row-7 .field-2, #signup .row-7 .field-3, #signup .row-7 .field-4 { display: block; }
 
 #expenses .row-1 .field-1 { width: 550px; }
-#expenses .row-1 .field-1 input[type='text'], #expenses .row-1 .field-1 textarea, #expenses .row-1 .field-1 select { width: 530px; }
+#expenses .row-1 .field-1 input[type='text'], #expenses .row-1 .field-1 textarea { width: 530px; }
+#expenses .row-1 .field-1 select { width: 540px; }
 #expenses .row-1 .field-2 { width: 1100px; }
-#expenses .row-1 .field-2 input[type='text'], #expenses .row-1 .field-2 textarea, #expenses .row-1 .field-2 select { width: 1080px; }
+#expenses .row-1 .field-2 input[type='text'], #expenses .row-1 .field-2 textarea { width: 1080px; }
+#expenses .row-1 .field-2 select { width: 1090px; }
 #expenses .row-1 .field-3 { width: 1650px; }
-#expenses .row-1 .field-3 input[type='text'], #expenses .row-1 .field-3 textarea, #expenses .row-1 .field-3 select { width: 1630px; }
+#expenses .row-1 .field-3 input[type='text'], #expenses .row-1 .field-3 textarea { width: 1630px; }
+#expenses .row-1 .field-3 select { width: 1640px; }
 #expenses .row-1 .field-4 { width: 2200px; }
-#expenses .row-1 .field-4 input[type='text'], #expenses .row-1 .field-4 textarea, #expenses .row-1 .field-4 select { width: 2180px; }
+#expenses .row-1 .field-4 input[type='text'], #expenses .row-1 .field-4 textarea { width: 2180px; }
+#expenses .row-1 .field-4 select { width: 2190px; }
 
 #expenses .row-2 .field-1 { width: 275px; }
-#expenses .row-2 .field-1 input[type='text'], #expenses .row-2 .field-1 textarea, #expenses .row-2 .field-1 select { width: 255px; }
+#expenses .row-2 .field-1 input[type='text'], #expenses .row-2 .field-1 textarea { width: 255px; }
+#expenses .row-2 .field-1 select { width: 265px; }
 #expenses .row-2 .field-2 { width: 550px; }
-#expenses .row-2 .field-2 input[type='text'], #expenses .row-2 .field-2 textarea, #expenses .row-2 .field-2 select { width: 530px; }
+#expenses .row-2 .field-2 input[type='text'], #expenses .row-2 .field-2 textarea { width: 530px; }
+#expenses .row-2 .field-2 select { width: 540px; }
 #expenses .row-2 .field-3 { width: 825px; }
-#expenses .row-2 .field-3 input[type='text'], #expenses .row-2 .field-3 textarea, #expenses .row-2 .field-3 select { width: 805px; }
+#expenses .row-2 .field-3 input[type='text'], #expenses .row-2 .field-3 textarea { width: 805px; }
+#expenses .row-2 .field-3 select { width: 815px; }
 #expenses .row-2 .field-4 { width: 1100px; }
-#expenses .row-2 .field-4 input[type='text'], #expenses .row-2 .field-4 textarea, #expenses .row-2 .field-4 select { width: 1080px; }
+#expenses .row-2 .field-4 input[type='text'], #expenses .row-2 .field-4 textarea { width: 1080px; }
+#expenses .row-2 .field-4 select { width: 1090px; }
 
 #expenses .row-3 .field-1 { width: 183px; }
-#expenses .row-3 .field-1 input[type='text'], #expenses .row-3 .field-1 textarea, #expenses .row-3 .field-1 select { width: 163px; }
+#expenses .row-3 .field-1 input[type='text'], #expenses .row-3 .field-1 textarea { width: 163px; }
+#expenses .row-3 .field-1 select { width: 173px; }
 #expenses .row-3 .field-2 { width: 366px; }
-#expenses .row-3 .field-2 input[type='text'], #expenses .row-3 .field-2 textarea, #expenses .row-3 .field-2 select { width: 346px; }
+#expenses .row-3 .field-2 input[type='text'], #expenses .row-3 .field-2 textarea { width: 346px; }
+#expenses .row-3 .field-2 select { width: 356px; }
 #expenses .row-3 .field-3 { width: 550px; }
-#expenses .row-3 .field-3 input[type='text'], #expenses .row-3 .field-3 textarea, #expenses .row-3 .field-3 select { width: 530px; }
+#expenses .row-3 .field-3 input[type='text'], #expenses .row-3 .field-3 textarea { width: 530px; }
+#expenses .row-3 .field-3 select { width: 540px; }
 #expenses .row-3 .field-4 { width: 733px; }
-#expenses .row-3 .field-4 input[type='text'], #expenses .row-3 .field-4 textarea, #expenses .row-3 .field-4 select { width: 713px; }
+#expenses .row-3 .field-4 input[type='text'], #expenses .row-3 .field-4 textarea { width: 713px; }
+#expenses .row-3 .field-4 select { width: 723px; }
 
 #expenses .row-4 .field-1 { width: 137px; }
-#expenses .row-4 .field-1 input[type='text'], #expenses .row-4 .field-1 textarea, #expenses .row-4 .field-1 select { width: 117px; }
+#expenses .row-4 .field-1 input[type='text'], #expenses .row-4 .field-1 textarea { width: 117px; }
+#expenses .row-4 .field-1 select { width: 127px; }
 #expenses .row-4 .field-2 { width: 275px; }
-#expenses .row-4 .field-2 input[type='text'], #expenses .row-4 .field-2 textarea, #expenses .row-4 .field-2 select { width: 255px; }
+#expenses .row-4 .field-2 input[type='text'], #expenses .row-4 .field-2 textarea { width: 255px; }
+#expenses .row-4 .field-2 select { width: 265px; }
 #expenses .row-4 .field-3 { width: 412px; }
-#expenses .row-4 .field-3 input[type='text'], #expenses .row-4 .field-3 textarea, #expenses .row-4 .field-3 select { width: 392px; }
+#expenses .row-4 .field-3 input[type='text'], #expenses .row-4 .field-3 textarea { width: 392px; }
+#expenses .row-4 .field-3 select { width: 402px; }
 #expenses .row-4 .field-4 { width: 550px; }
-#expenses .row-4 .field-4 input[type='text'], #expenses .row-4 .field-4 textarea, #expenses .row-4 .field-4 select { width: 530px; }
+#expenses .row-4 .field-4 input[type='text'], #expenses .row-4 .field-4 textarea { width: 530px; }
+#expenses .row-4 .field-4 select { width: 540px; }
 
 #expenses .row-5 .field-1 { width: 110px; }
-#expenses .row-5 .field-1 input[type='text'], #expenses .row-5 .field-1 textarea, #expenses .row-5 .field-1 select { width: 90px; }
+#expenses .row-5 .field-1 input[type='text'], #expenses .row-5 .field-1 textarea { width: 90px; }
+#expenses .row-5 .field-1 select { width: 100px; }
 #expenses .row-5 .field-2 { width: 220px; }
-#expenses .row-5 .field-2 input[type='text'], #expenses .row-5 .field-2 textarea, #expenses .row-5 .field-2 select { width: 200px; }
+#expenses .row-5 .field-2 input[type='text'], #expenses .row-5 .field-2 textarea { width: 200px; }
+#expenses .row-5 .field-2 select { width: 210px; }
 #expenses .row-5 .field-3 { width: 330px; }
-#expenses .row-5 .field-3 input[type='text'], #expenses .row-5 .field-3 textarea, #expenses .row-5 .field-3 select { width: 310px; }
+#expenses .row-5 .field-3 input[type='text'], #expenses .row-5 .field-3 textarea { width: 310px; }
+#expenses .row-5 .field-3 select { width: 320px; }
 #expenses .row-5 .field-4 { width: 440px; }
-#expenses .row-5 .field-4 input[type='text'], #expenses .row-5 .field-4 textarea, #expenses .row-5 .field-4 select { width: 420px; }
+#expenses .row-5 .field-4 input[type='text'], #expenses .row-5 .field-4 textarea { width: 420px; }
+#expenses .row-5 .field-4 select { width: 430px; }
 
 #expenses .row-6 .field-1 { width: 91px; }
-#expenses .row-6 .field-1 input[type='text'], #expenses .row-6 .field-1 textarea, #expenses .row-6 .field-1 select { width: 71px; }
+#expenses .row-6 .field-1 input[type='text'], #expenses .row-6 .field-1 textarea { width: 71px; }
+#expenses .row-6 .field-1 select { width: 81px; }
 #expenses .row-6 .field-2 { width: 183px; }
-#expenses .row-6 .field-2 input[type='text'], #expenses .row-6 .field-2 textarea, #expenses .row-6 .field-2 select { width: 163px; }
+#expenses .row-6 .field-2 input[type='text'], #expenses .row-6 .field-2 textarea { width: 163px; }
+#expenses .row-6 .field-2 select { width: 173px; }
 #expenses .row-6 .field-3 { width: 275px; }
-#expenses .row-6 .field-3 input[type='text'], #expenses .row-6 .field-3 textarea, #expenses .row-6 .field-3 select { width: 255px; }
+#expenses .row-6 .field-3 input[type='text'], #expenses .row-6 .field-3 textarea { width: 255px; }
+#expenses .row-6 .field-3 select { width: 265px; }
 #expenses .row-6 .field-4 { width: 366px; }
-#expenses .row-6 .field-4 input[type='text'], #expenses .row-6 .field-4 textarea, #expenses .row-6 .field-4 select { width: 346px; }
+#expenses .row-6 .field-4 input[type='text'], #expenses .row-6 .field-4 textarea { width: 346px; }
+#expenses .row-6 .field-4 select { width: 356px; }
 
 #expenses .row-7 .field-1 { width: 78px; }
-#expenses .row-7 .field-1 input[type='text'], #expenses .row-7 .field-1 textarea, #expenses .row-7 .field-1 select { width: 58px; }
+#expenses .row-7 .field-1 input[type='text'], #expenses .row-7 .field-1 textarea { width: 58px; }
+#expenses .row-7 .field-1 select { width: 68px; }
 #expenses .row-7 .field-2 { width: 157px; }
-#expenses .row-7 .field-2 input[type='text'], #expenses .row-7 .field-2 textarea, #expenses .row-7 .field-2 select { width: 137px; }
+#expenses .row-7 .field-2 input[type='text'], #expenses .row-7 .field-2 textarea { width: 137px; }
+#expenses .row-7 .field-2 select { width: 147px; }
 #expenses .row-7 .field-3 { width: 235px; }
-#expenses .row-7 .field-3 input[type='text'], #expenses .row-7 .field-3 textarea, #expenses .row-7 .field-3 select { width: 215px; }
+#expenses .row-7 .field-3 input[type='text'], #expenses .row-7 .field-3 textarea { width: 215px; }
+#expenses .row-7 .field-3 select { width: 225px; }
 #expenses .row-7 .field-4 { width: 314px; }
-#expenses .row-7 .field-4 input[type='text'], #expenses .row-7 .field-4 textarea, #expenses .row-7 .field-4 select { width: 294px; }
+#expenses .row-7 .field-4 input[type='text'], #expenses .row-7 .field-4 textarea { width: 294px; }
+#expenses .row-7 .field-4 select { width: 304px; }
 
 #contact .row-1 .field-1 { width: 750px; }
-#contact .row-1 .field-1 input[type='text'], #contact .row-1 .field-1 textarea, #contact .row-1 .field-1 select { width: 730px; }
+#contact .row-1 .field-1 input[type='text'], #contact .row-1 .field-1 textarea { width: 730px; }
+#contact .row-1 .field-1 select { width: 740px; }
 #contact .row-1 .field-2 { width: 1500px; }
-#contact .row-1 .field-2 input[type='text'], #contact .row-1 .field-2 textarea, #contact .row-1 .field-2 select { width: 1480px; }
+#contact .row-1 .field-2 input[type='text'], #contact .row-1 .field-2 textarea { width: 1480px; }
+#contact .row-1 .field-2 select { width: 1490px; }
 #contact .row-1 .field-3 { width: 2250px; }
-#contact .row-1 .field-3 input[type='text'], #contact .row-1 .field-3 textarea, #contact .row-1 .field-3 select { width: 2230px; }
+#contact .row-1 .field-3 input[type='text'], #contact .row-1 .field-3 textarea { width: 2230px; }
+#contact .row-1 .field-3 select { width: 2240px; }
 #contact .row-1 .field-4 { width: 3000px; }
-#contact .row-1 .field-4 input[type='text'], #contact .row-1 .field-4 textarea, #contact .row-1 .field-4 select { width: 2980px; }
+#contact .row-1 .field-4 input[type='text'], #contact .row-1 .field-4 textarea { width: 2980px; }
+#contact .row-1 .field-4 select { width: 2990px; }
 
 #contact .row-2 .field-1 { width: 375px; }
-#contact .row-2 .field-1 input[type='text'], #contact .row-2 .field-1 textarea, #contact .row-2 .field-1 select { width: 355px; }
+#contact .row-2 .field-1 input[type='text'], #contact .row-2 .field-1 textarea { width: 355px; }
+#contact .row-2 .field-1 select { width: 365px; }
 #contact .row-2 .field-2 { width: 750px; }
-#contact .row-2 .field-2 input[type='text'], #contact .row-2 .field-2 textarea, #contact .row-2 .field-2 select { width: 730px; }
+#contact .row-2 .field-2 input[type='text'], #contact .row-2 .field-2 textarea { width: 730px; }
+#contact .row-2 .field-2 select { width: 740px; }
 #contact .row-2 .field-3 { width: 1125px; }
-#contact .row-2 .field-3 input[type='text'], #contact .row-2 .field-3 textarea, #contact .row-2 .field-3 select { width: 1105px; }
+#contact .row-2 .field-3 input[type='text'], #contact .row-2 .field-3 textarea { width: 1105px; }
+#contact .row-2 .field-3 select { width: 1115px; }
 #contact .row-2 .field-4 { width: 1500px; }
-#contact .row-2 .field-4 input[type='text'], #contact .row-2 .field-4 textarea, #contact .row-2 .field-4 select { width: 1480px; }
+#contact .row-2 .field-4 input[type='text'], #contact .row-2 .field-4 textarea { width: 1480px; }
+#contact .row-2 .field-4 select { width: 1490px; }
 
 #contact .row-3 .field-1 { width: 250px; }
-#contact .row-3 .field-1 input[type='text'], #contact .row-3 .field-1 textarea, #contact .row-3 .field-1 select { width: 230px; }
+#contact .row-3 .field-1 input[type='text'], #contact .row-3 .field-1 textarea { width: 230px; }
+#contact .row-3 .field-1 select { width: 240px; }
 #contact .row-3 .field-2 { width: 500px; }
-#contact .row-3 .field-2 input[type='text'], #contact .row-3 .field-2 textarea, #contact .row-3 .field-2 select { width: 480px; }
+#contact .row-3 .field-2 input[type='text'], #contact .row-3 .field-2 textarea { width: 480px; }
+#contact .row-3 .field-2 select { width: 490px; }
 #contact .row-3 .field-3 { width: 750px; }
-#contact .row-3 .field-3 input[type='text'], #contact .row-3 .field-3 textarea, #contact .row-3 .field-3 select { width: 730px; }
+#contact .row-3 .field-3 input[type='text'], #contact .row-3 .field-3 textarea { width: 730px; }
+#contact .row-3 .field-3 select { width: 740px; }
 #contact .row-3 .field-4 { width: 1000px; }
-#contact .row-3 .field-4 input[type='text'], #contact .row-3 .field-4 textarea, #contact .row-3 .field-4 select { width: 980px; }
+#contact .row-3 .field-4 input[type='text'], #contact .row-3 .field-4 textarea { width: 980px; }
+#contact .row-3 .field-4 select { width: 990px; }
 
 #contact .row-4 .field-1 { width: 187px; }
-#contact .row-4 .field-1 input[type='text'], #contact .row-4 .field-1 textarea, #contact .row-4 .field-1 select { width: 167px; }
+#contact .row-4 .field-1 input[type='text'], #contact .row-4 .field-1 textarea { width: 167px; }
+#contact .row-4 .field-1 select { width: 177px; }
 #contact .row-4 .field-2 { width: 375px; }
-#contact .row-4 .field-2 input[type='text'], #contact .row-4 .field-2 textarea, #contact .row-4 .field-2 select { width: 355px; }
+#contact .row-4 .field-2 input[type='text'], #contact .row-4 .field-2 textarea { width: 355px; }
+#contact .row-4 .field-2 select { width: 365px; }
 #contact .row-4 .field-3 { width: 562px; }
-#contact .row-4 .field-3 input[type='text'], #contact .row-4 .field-3 textarea, #contact .row-4 .field-3 select { width: 542px; }
+#contact .row-4 .field-3 input[type='text'], #contact .row-4 .field-3 textarea { width: 542px; }
+#contact .row-4 .field-3 select { width: 552px; }
 #contact .row-4 .field-4 { width: 750px; }
-#contact .row-4 .field-4 input[type='text'], #contact .row-4 .field-4 textarea, #contact .row-4 .field-4 select { width: 730px; }
+#contact .row-4 .field-4 input[type='text'], #contact .row-4 .field-4 textarea { width: 730px; }
+#contact .row-4 .field-4 select { width: 740px; }
 
 #contact .row-5 .field-1 { width: 150px; }
-#contact .row-5 .field-1 input[type='text'], #contact .row-5 .field-1 textarea, #contact .row-5 .field-1 select { width: 130px; }
+#contact .row-5 .field-1 input[type='text'], #contact .row-5 .field-1 textarea { width: 130px; }
+#contact .row-5 .field-1 select { width: 140px; }
 #contact .row-5 .field-2 { width: 300px; }
-#contact .row-5 .field-2 input[type='text'], #contact .row-5 .field-2 textarea, #contact .row-5 .field-2 select { width: 280px; }
+#contact .row-5 .field-2 input[type='text'], #contact .row-5 .field-2 textarea { width: 280px; }
+#contact .row-5 .field-2 select { width: 290px; }
 #contact .row-5 .field-3 { width: 450px; }
-#contact .row-5 .field-3 input[type='text'], #contact .row-5 .field-3 textarea, #contact .row-5 .field-3 select { width: 430px; }
+#contact .row-5 .field-3 input[type='text'], #contact .row-5 .field-3 textarea { width: 430px; }
+#contact .row-5 .field-3 select { width: 440px; }
 #contact .row-5 .field-4 { width: 600px; }
-#contact .row-5 .field-4 input[type='text'], #contact .row-5 .field-4 textarea, #contact .row-5 .field-4 select { width: 580px; }
+#contact .row-5 .field-4 input[type='text'], #contact .row-5 .field-4 textarea { width: 580px; }
+#contact .row-5 .field-4 select { width: 590px; }
 
 #contact .row-6 .field-1 { width: 125px; }
-#contact .row-6 .field-1 input[type='text'], #contact .row-6 .field-1 textarea, #contact .row-6 .field-1 select { width: 105px; }
+#contact .row-6 .field-1 input[type='text'], #contact .row-6 .field-1 textarea { width: 105px; }
+#contact .row-6 .field-1 select { width: 115px; }
 #contact .row-6 .field-2 { width: 250px; }
-#contact .row-6 .field-2 input[type='text'], #contact .row-6 .field-2 textarea, #contact .row-6 .field-2 select { width: 230px; }
+#contact .row-6 .field-2 input[type='text'], #contact .row-6 .field-2 textarea { width: 230px; }
+#contact .row-6 .field-2 select { width: 240px; }
 #contact .row-6 .field-3 { width: 375px; }
-#contact .row-6 .field-3 input[type='text'], #contact .row-6 .field-3 textarea, #contact .row-6 .field-3 select { width: 355px; }
+#contact .row-6 .field-3 input[type='text'], #contact .row-6 .field-3 textarea { width: 355px; }
+#contact .row-6 .field-3 select { width: 365px; }
 #contact .row-6 .field-4 { width: 500px; }
-#contact .row-6 .field-4 input[type='text'], #contact .row-6 .field-4 textarea, #contact .row-6 .field-4 select { width: 480px; }
+#contact .row-6 .field-4 input[type='text'], #contact .row-6 .field-4 textarea { width: 480px; }
+#contact .row-6 .field-4 select { width: 490px; }
 
 #contact .row-7 .field-1 { width: 107px; }
-#contact .row-7 .field-1 input[type='text'], #contact .row-7 .field-1 textarea, #contact .row-7 .field-1 select { width: 87px; }
+#contact .row-7 .field-1 input[type='text'], #contact .row-7 .field-1 textarea { width: 87px; }
+#contact .row-7 .field-1 select { width: 97px; }
 #contact .row-7 .field-2 { width: 214px; }
-#contact .row-7 .field-2 input[type='text'], #contact .row-7 .field-2 textarea, #contact .row-7 .field-2 select { width: 194px; }
+#contact .row-7 .field-2 input[type='text'], #contact .row-7 .field-2 textarea { width: 194px; }
+#contact .row-7 .field-2 select { width: 204px; }
 #contact .row-7 .field-3 { width: 321px; }
-#contact .row-7 .field-3 input[type='text'], #contact .row-7 .field-3 textarea, #contact .row-7 .field-3 select { width: 301px; }
+#contact .row-7 .field-3 input[type='text'], #contact .row-7 .field-3 textarea { width: 301px; }
+#contact .row-7 .field-3 select { width: 311px; }
 #contact .row-7 .field-4 { width: 428px; }
-#contact .row-7 .field-4 input[type='text'], #contact .row-7 .field-4 textarea, #contact .row-7 .field-4 select { width: 408px; }
+#contact .row-7 .field-4 input[type='text'], #contact .row-7 .field-4 textarea { width: 408px; }
+#contact .row-7 .field-4 select { width: 418px; }
 
 #signup .row-1 .field-1 { width: 350px; }
-#signup .row-1 .field-1 input[type='text'], #signup .row-1 .field-1 textarea, #signup .row-1 .field-1 select { width: 330px; }
+#signup .row-1 .field-1 input[type='text'], #signup .row-1 .field-1 textarea { width: 330px; }
+#signup .row-1 .field-1 select { width: 340px; }
 #signup .row-1 .field-2 { width: 700px; }
-#signup .row-1 .field-2 input[type='text'], #signup .row-1 .field-2 textarea, #signup .row-1 .field-2 select { width: 680px; }
+#signup .row-1 .field-2 input[type='text'], #signup .row-1 .field-2 textarea { width: 680px; }
+#signup .row-1 .field-2 select { width: 690px; }
 #signup .row-1 .field-3 { width: 1050px; }
-#signup .row-1 .field-3 input[type='text'], #signup .row-1 .field-3 textarea, #signup .row-1 .field-3 select { width: 1030px; }
+#signup .row-1 .field-3 input[type='text'], #signup .row-1 .field-3 textarea { width: 1030px; }
+#signup .row-1 .field-3 select { width: 1040px; }
 #signup .row-1 .field-4 { width: 1400px; }
-#signup .row-1 .field-4 input[type='text'], #signup .row-1 .field-4 textarea, #signup .row-1 .field-4 select { width: 1380px; }
+#signup .row-1 .field-4 input[type='text'], #signup .row-1 .field-4 textarea { width: 1380px; }
+#signup .row-1 .field-4 select { width: 1390px; }
 
 #signup .row-2 .field-1 { width: 175px; }
-#signup .row-2 .field-1 input[type='text'], #signup .row-2 .field-1 textarea, #signup .row-2 .field-1 select { width: 155px; }
+#signup .row-2 .field-1 input[type='text'], #signup .row-2 .field-1 textarea { width: 155px; }
+#signup .row-2 .field-1 select { width: 165px; }
 #signup .row-2 .field-2 { width: 350px; }
-#signup .row-2 .field-2 input[type='text'], #signup .row-2 .field-2 textarea, #signup .row-2 .field-2 select { width: 330px; }
+#signup .row-2 .field-2 input[type='text'], #signup .row-2 .field-2 textarea { width: 330px; }
+#signup .row-2 .field-2 select { width: 340px; }
 #signup .row-2 .field-3 { width: 525px; }
-#signup .row-2 .field-3 input[type='text'], #signup .row-2 .field-3 textarea, #signup .row-2 .field-3 select { width: 505px; }
+#signup .row-2 .field-3 input[type='text'], #signup .row-2 .field-3 textarea { width: 505px; }
+#signup .row-2 .field-3 select { width: 515px; }
 #signup .row-2 .field-4 { width: 700px; }
-#signup .row-2 .field-4 input[type='text'], #signup .row-2 .field-4 textarea, #signup .row-2 .field-4 select { width: 680px; }
+#signup .row-2 .field-4 input[type='text'], #signup .row-2 .field-4 textarea { width: 680px; }
+#signup .row-2 .field-4 select { width: 690px; }
 
 #signup .row-3 .field-1 { width: 116px; }
-#signup .row-3 .field-1 input[type='text'], #signup .row-3 .field-1 textarea, #signup .row-3 .field-1 select { width: 96px; }
+#signup .row-3 .field-1 input[type='text'], #signup .row-3 .field-1 textarea { width: 96px; }
+#signup .row-3 .field-1 select { width: 106px; }
 #signup .row-3 .field-2 { width: 233px; }
-#signup .row-3 .field-2 input[type='text'], #signup .row-3 .field-2 textarea, #signup .row-3 .field-2 select { width: 213px; }
+#signup .row-3 .field-2 input[type='text'], #signup .row-3 .field-2 textarea { width: 213px; }
+#signup .row-3 .field-2 select { width: 223px; }
 #signup .row-3 .field-3 { width: 350px; }
-#signup .row-3 .field-3 input[type='text'], #signup .row-3 .field-3 textarea, #signup .row-3 .field-3 select { width: 330px; }
+#signup .row-3 .field-3 input[type='text'], #signup .row-3 .field-3 textarea { width: 330px; }
+#signup .row-3 .field-3 select { width: 340px; }
 #signup .row-3 .field-4 { width: 466px; }
-#signup .row-3 .field-4 input[type='text'], #signup .row-3 .field-4 textarea, #signup .row-3 .field-4 select { width: 446px; }
+#signup .row-3 .field-4 input[type='text'], #signup .row-3 .field-4 textarea { width: 446px; }
+#signup .row-3 .field-4 select { width: 456px; }
 
 #signup .row-4 .field-1 { width: 87px; }
-#signup .row-4 .field-1 input[type='text'], #signup .row-4 .field-1 textarea, #signup .row-4 .field-1 select { width: 67px; }
+#signup .row-4 .field-1 input[type='text'], #signup .row-4 .field-1 textarea { width: 67px; }
+#signup .row-4 .field-1 select { width: 77px; }
 #signup .row-4 .field-2 { width: 175px; }
-#signup .row-4 .field-2 input[type='text'], #signup .row-4 .field-2 textarea, #signup .row-4 .field-2 select { width: 155px; }
+#signup .row-4 .field-2 input[type='text'], #signup .row-4 .field-2 textarea { width: 155px; }
+#signup .row-4 .field-2 select { width: 165px; }
 #signup .row-4 .field-3 { width: 262px; }
-#signup .row-4 .field-3 input[type='text'], #signup .row-4 .field-3 textarea, #signup .row-4 .field-3 select { width: 242px; }
+#signup .row-4 .field-3 input[type='text'], #signup .row-4 .field-3 textarea { width: 242px; }
+#signup .row-4 .field-3 select { width: 252px; }
 #signup .row-4 .field-4 { width: 350px; }
-#signup .row-4 .field-4 input[type='text'], #signup .row-4 .field-4 textarea, #signup .row-4 .field-4 select { width: 330px; }
+#signup .row-4 .field-4 input[type='text'], #signup .row-4 .field-4 textarea { width: 330px; }
+#signup .row-4 .field-4 select { width: 340px; }
 
 #signup .row-5 .field-1 { width: 70px; }
-#signup .row-5 .field-1 input[type='text'], #signup .row-5 .field-1 textarea, #signup .row-5 .field-1 select { width: 50px; }
+#signup .row-5 .field-1 input[type='text'], #signup .row-5 .field-1 textarea { width: 50px; }
+#signup .row-5 .field-1 select { width: 60px; }
 #signup .row-5 .field-2 { width: 140px; }
-#signup .row-5 .field-2 input[type='text'], #signup .row-5 .field-2 textarea, #signup .row-5 .field-2 select { width: 120px; }
+#signup .row-5 .field-2 input[type='text'], #signup .row-5 .field-2 textarea { width: 120px; }
+#signup .row-5 .field-2 select { width: 130px; }
 #signup .row-5 .field-3 { width: 210px; }
-#signup .row-5 .field-3 input[type='text'], #signup .row-5 .field-3 textarea, #signup .row-5 .field-3 select { width: 190px; }
+#signup .row-5 .field-3 input[type='text'], #signup .row-5 .field-3 textarea { width: 190px; }
+#signup .row-5 .field-3 select { width: 200px; }
 #signup .row-5 .field-4 { width: 280px; }
-#signup .row-5 .field-4 input[type='text'], #signup .row-5 .field-4 textarea, #signup .row-5 .field-4 select { width: 260px; }
+#signup .row-5 .field-4 input[type='text'], #signup .row-5 .field-4 textarea { width: 260px; }
+#signup .row-5 .field-4 select { width: 270px; }
 
 #signup .row-6 .field-1 { width: 58px; }
-#signup .row-6 .field-1 input[type='text'], #signup .row-6 .field-1 textarea, #signup .row-6 .field-1 select { width: 38px; }
+#signup .row-6 .field-1 input[type='text'], #signup .row-6 .field-1 textarea { width: 38px; }
+#signup .row-6 .field-1 select { width: 48px; }
 #signup .row-6 .field-2 { width: 116px; }
-#signup .row-6 .field-2 input[type='text'], #signup .row-6 .field-2 textarea, #signup .row-6 .field-2 select { width: 96px; }
+#signup .row-6 .field-2 input[type='text'], #signup .row-6 .field-2 textarea { width: 96px; }
+#signup .row-6 .field-2 select { width: 106px; }
 #signup .row-6 .field-3 { width: 175px; }
-#signup .row-6 .field-3 input[type='text'], #signup .row-6 .field-3 textarea, #signup .row-6 .field-3 select { width: 155px; }
+#signup .row-6 .field-3 input[type='text'], #signup .row-6 .field-3 textarea { width: 155px; }
+#signup .row-6 .field-3 select { width: 165px; }
 #signup .row-6 .field-4 { width: 233px; }
-#signup .row-6 .field-4 input[type='text'], #signup .row-6 .field-4 textarea, #signup .row-6 .field-4 select { width: 213px; }
+#signup .row-6 .field-4 input[type='text'], #signup .row-6 .field-4 textarea { width: 213px; }
+#signup .row-6 .field-4 select { width: 223px; }
 
 #signup .row-7 .field-1 { width: 50px; }
-#signup .row-7 .field-1 input[type='text'], #signup .row-7 .field-1 textarea, #signup .row-7 .field-1 select { width: 30px; }
+#signup .row-7 .field-1 input[type='text'], #signup .row-7 .field-1 textarea { width: 30px; }
+#signup .row-7 .field-1 select { width: 40px; }
 #signup .row-7 .field-2 { width: 100px; }
-#signup .row-7 .field-2 input[type='text'], #signup .row-7 .field-2 textarea, #signup .row-7 .field-2 select { width: 80px; }
+#signup .row-7 .field-2 input[type='text'], #signup .row-7 .field-2 textarea { width: 80px; }
+#signup .row-7 .field-2 select { width: 90px; }
 #signup .row-7 .field-3 { width: 150px; }
-#signup .row-7 .field-3 input[type='text'], #signup .row-7 .field-3 textarea, #signup .row-7 .field-3 select { width: 130px; }
+#signup .row-7 .field-3 input[type='text'], #signup .row-7 .field-3 textarea { width: 130px; }
+#signup .row-7 .field-3 select { width: 140px; }
 #signup .row-7 .field-4 { width: 200px; }
-#signup .row-7 .field-4 input[type='text'], #signup .row-7 .field-4 textarea, #signup .row-7 .field-4 select { width: 180px; }
+#signup .row-7 .field-4 input[type='text'], #signup .row-7 .field-4 textarea { width: 180px; }
+#signup .row-7 .field-4 select { width: 190px; }

@@ -120,9 +120,10 @@ input[type='checkbox'], input[type='radio']
       @extend .field 
       @extend .formstyle 
       width: floor($width_of_column * $i)
-      input[type='text'], textarea, select 
+      input[type='text'], textarea
         width: floor($width_of_column * $i - $gutter)
-
+      select 
+        width: floor($width_of_column * $i - ($gutter / 2))
 
 @for $i from 1 through 7
   #expenses
